@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-03 01:22+0200\n"
-"PO-Revision-Date: 2016-07-03 02:26+0100\n"
+"PO-Revision-Date: 2016-07-03 05:34+0100\n"
 "Last-Translator: Thomas Gratier <thomas.gratier@webgeodatavore.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -31,6 +31,8 @@ msgid ""
 "The latest version of Mac OS X, El Capitan, **comes with Python 2.7 out of "
 "the box**."
 msgstr ""
+"La dernière version de Mac OS X, El Capitan, **vient avec Python 2.7 par "
+"défaut**."
 
 #: ../../starting/install/osx.rst:8
 msgid ""
@@ -41,6 +43,13 @@ msgid ""
 "Setuptools, as it makes it much easier for you to use other third-party "
 "Python libraries."
 msgstr ""
+"Vous n'avez pas besoin d'installer ou de configurer quoi que ce soit pour "
+"utiliser Python. Après avoir dit cela, je recommande fortement que vous "
+"installiez les outils et les bibliothèques décrites dans la prochaine "
+"section avant que vous démarriez à construire des applications Python pour "
+"un usage dans le monde réel. En particulier, vous devriez toujours installer "
+"Setuptools, comme il rend plus facile pour vous d'utiliser d'autres "
+"bibliothèques Python tierces."
 
 #: ../../starting/install/osx.rst:14
 msgid ""
@@ -49,10 +58,15 @@ msgid ""
 "from the `official current Python release <https://www.python.org/downloads/"
 "mac-osx/>`_, which is considered the stable production version."
 msgstr ""
+"La version de Python qui est livrée avec OS X est bien pour apprendre mais "
+"elle n'est pas bonne pour le développement. La version livrée avec OS X peut "
+"être dépassée par rapport à `la version officielle courante de Python "
+"<https://www.python.org/downloads/mac-osx/>`_, qui est considérée comme la "
+"version de production stable."
 
 #: ../../starting/install/osx.rst:20
 msgid "Doing it Right"
-msgstr ""
+msgstr "Bien faire les choses"
 
 #: ../../starting/install/osx.rst:22
 msgid "Let's install a real version of Python."
@@ -66,18 +80,30 @@ msgid ""
 "Apple account) or the even smaller `OSX-GCC-Installer <https://github.com/"
 "kennethreitz/osx-gcc-installer#readme>`_ package."
 msgstr ""
+"Avant l'installation de Python, vous devrez avoir installé GCC. GCC peut "
+"être obtenu en téléchargeant `Xcode <http://developer.apple.com/xcode/>`_, "
+"en plus léger, `Command Line Tools <https://developer.apple.com/downloads/"
+">`_ (vous devez avoir un compte Apple) ou bien le paquet encore plus "
+"petit`OSX-GCC-Installer <https://github.com/kennethreitz/osx-gcc-"
+"installer#readme>`_."
 
 #: ../../starting/install/osx.rst:31
 msgid ""
 "If you already have Xcode installed, do not install OSX-GCC-Installer. In "
 "combination, the software can cause issues that are difficult to diagnose."
 msgstr ""
+"Si vous avez déjà Xcode installé, n'installez pas OSX-GCC-Installer. En "
+"association, le logiciel peut causer des problèmes qui sont difficiles à "
+"diagnostiquer."
 
 #: ../../starting/install/osx.rst:36
 msgid ""
 "If you perform a fresh install of Xcode, you will also need to add the "
 "commandline tools by running ``xcode-select --install`` on the terminal."
 msgstr ""
+"Si vous effectuez une installation fraîche de Xcode, vous devrez aussi "
+"ajoutez les outils de la ligne de commande en exécutant ``xcode-select --"
+"install`` dans le terminal."
 
 #: ../../starting/install/osx.rst:39
 msgid ""
@@ -85,12 +111,18 @@ msgid ""
 "Linux systems will notice one key component missing: a decent package "
 "manager. `Homebrew <http://brew.sh>`_ fills this void."
 msgstr ""
+"Bien que OS X vienne avec de nombreux utilitaires UNIX, ceux familiers avec "
+"les systèmes d'exploitation Linux remarquerons qu'un composant clé est "
+"manquant: un gestionnaire de paquet décent. `Homebrew <http://brew.sh>`_ "
+"comblera ce manque."
 
 #: ../../starting/install/osx.rst:43
 msgid ""
 "To `install Homebrew <http://brew.sh/#install>`_, open :file:`Terminal` or "
 "your favorite OSX terminal emulator and run"
 msgstr ""
+"Pour `installer Homebrew <http://brew.sh/#install>`_, ouvrez le :file:"
+"`Terminal` ou votre émulateur de terminal OSX favori et exécutez"
 
 #: ../../starting/install/osx.rst:50
 msgid ""
@@ -100,14 +132,19 @@ msgid ""
 "this by adding the following line at the bottom of your :file:`~/.profile` "
 "file"
 msgstr ""
+"Ce script va expliquer quels changements il fera et vous demander avant de "
+"que l'installation commence. Un fois que vous avez installé Homebrew, "
+"insérez le répertoire Homebrew en haut de votre variable d'environnement :"
+"envvar:`PATH`. Vous pouvez faire ceci en ajoutant la ligne qui suit à la fin "
+"de votre fichier :file:`~/.profile`"
 
 #: ../../starting/install/osx.rst:60
 msgid "Now, we can install Python 2.7:"
-msgstr ""
+msgstr "Maintenant, nous pouvons installer  Python 2.7:"
 
 #: ../../starting/install/osx.rst:66
 msgid "This will take a minute or two."
-msgstr ""
+msgstr "Cela va prendre une minute ou deux."
 
 #: ../../starting/install/osx.rst:70
 msgid "Setuptools & Pip"
@@ -115,7 +152,7 @@ msgstr "Setuptools & Pip"
 
 #: ../../starting/install/osx.rst:72
 msgid "Homebrew installs Setuptools and ``pip`` for you."
-msgstr ""
+msgstr "Homebrew installe Setuptools et ``pip`` pour vous."
 
 #: ../../starting/install/osx.rst:74
 msgid ""
@@ -124,6 +161,11 @@ msgid ""
 "(``easy_install``). It also enables you to add this network installation "
 "capability to your own Python software with very little work."
 msgstr ""
+"Setuptools vous permet de télécharger et d'installer n'importe quel logiciel "
+"conforme à Python via un réseau (généralement Internet) avec une seule "
+"commande (``easy_install``). Il vous permet aussi d'ajouter cette capacité "
+"d'installation par le réseau à votre propre logiciel Python avec très peu de "
+"travail."
 
 #: ../../starting/install/osx.rst:79
 msgid ""
@@ -132,6 +174,11 @@ msgid ""
 "`several ways <https://python-packaging-user-guide.readthedocs.org/en/latest/"
 "pip_easy_install/#pip-vs-easy-install>`_, and is actively maintained."
 msgstr ""
+"``pip`` est un outil pour installer et gérer facilement des paquets Python, "
+"qui est recommandé plutôt que ``easy_install``. Il est supérieur à "
+"``easy_install`` de `plusieurs manières <https://python-packaging-user-guide."
+"readthedocs.org/en/latest/pip_easy_install/#pip-vs-easy-install>`_, et est "
+"activement maintenu."
 
 #: ../../starting/install/osx.rst:85
 msgid "Virtual Environments"
@@ -145,18 +192,27 @@ msgid ""
 "Project Y needs 4.x\" dilemma, and keeps your global site-packages directory "
 "clean and manageable."
 msgstr ""
+"Un environnement virtuel est un outil pour garder les dépendances requises "
+"par différent projets dans des places séparées, en créant des environnements "
+"virtuels Python pour eux. Il résout  le dilemme \"le projet X dépend de la "
+"version 1.x mais le projet Y nécessite la 4.x\", et garde votre répertoire "
+"site-packages global propre et gérable."
 
 #: ../../starting/install/osx.rst:92
 msgid ""
 "For example, you can work on a project which requires Django 1.3 while also "
 "maintaining a project which requires Django 1.0."
 msgstr ""
+"Par exemple, vous pouvez travailler sur un projet qui nécessite Django 1.3 "
+"tout en maintenant aussi un projet qui nécessite Django 1.0."
 
 #: ../../starting/install/osx.rst:95
 msgid ""
 "To start using this and see more information: :ref:`Virtual Environments "
 "<virtualenvironments-ref>` docs."
 msgstr ""
+"Pour commencer à utiliser cela et plus d'informations: documentation sur "
+"les :ref:`Environnements virtuels <virtualenvironments-ref>."
 
 #: ../../starting/install/osx.rst:100
 msgid ""
@@ -164,3 +220,6 @@ msgid ""
 "articles/python-development-windows/>`_, which is available under the same "
 "license."
 msgstr ""
+"Cette page est une version remixée d'un `autre guide <http://www.stuartellis."
+"eu/articles/python-development-windows/>`_, qui est disponible sous la même "
+"licence."
