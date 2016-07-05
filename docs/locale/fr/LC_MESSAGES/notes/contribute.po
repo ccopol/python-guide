@@ -7,56 +7,67 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-03 01:22+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2016-07-05 02:50+0100\n"
+"Last-Translator: Thomas Gratier <thomas.gratier@webgeodatavore.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: fr\n"
 
 #: ../../notes/contribute.rst:2
 msgid "Contribute"
-msgstr ""
+msgstr "Contribuer"
 
 #: ../../notes/contribute.rst:4
 msgid "Python-guide is under active development, and contributors are welcome."
 msgstr ""
+"Le guide de Python est en développement actif et les contributeurs sont "
+"bienvenus."
 
 #: ../../notes/contribute.rst:6
 msgid ""
-"If you have a feature request, suggestion, or bug report, please open a "
-"new issue on GitHub_. To submit patches, please send a pull request on "
-"GitHub_. Once your changes get merged back in, you'll automatically be "
-"added to the `Contributors List <https://github.com/kennethreitz/python-"
-"guide/contributors>`_."
+"If you have a feature request, suggestion, or bug report, please open a new "
+"issue on GitHub_. To submit patches, please send a pull request on GitHub_. "
+"Once your changes get merged back in, you'll automatically be added to the "
+"`Contributors List <https://github.com/kennethreitz/python-guide/"
+"contributors>`_."
 msgstr ""
+"Si vous avez une demande de fonctionnalité, une suggestion, ou un rapport de "
+"bug, merci d'ouvrir un nouveau ticket sur GitHub_. Pour soumettre des "
+"patches, merci de faire une \"pull request\" sur GitHub_. Une fois vos "
+"changements intégrés, vous serez automatiquement ajouté à `la liste des "
+"contributeurs <https://github.com/kennethreitz/python-guide/contributors>`_."
 
 #: ../../notes/contribute.rst:12
 msgid "Style Guide"
-msgstr ""
+msgstr "Guide de style"
 
 #: ../../notes/contribute.rst:14
 msgid "For all contributions, please follow the :ref:`guide-style-guide`."
 msgstr ""
+"Pour toutes les contributions, merci de suivre le :ref:`guide-style-guide`."
 
 #: ../../notes/contribute.rst:19
 msgid "Todo List"
-msgstr ""
+msgstr "Liste de choses à faire (\"Todo\")"
 
 #: ../../notes/contribute.rst:21
 msgid ""
-"If you'd like to contribute, there's plenty to do. Here's a short todo_ "
-"list."
+"If you'd like to contribute, there's plenty to do. Here's a short todo_ list."
 msgstr ""
+"Si vous voulez contribuer, il y a plein de choses à faire. Voici un courte "
+"liste de choses à faire"
 
 #: ../../../TODO.rst:1
 msgid "Establish \"use this\" vs \"alternatives are....\" recommendations"
 msgstr ""
-
+"Établir les recommandations entre \"utilisez ceci\" contre \"les "
+"alternatives sont....\""
