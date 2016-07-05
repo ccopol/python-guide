@@ -7,70 +7,83 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-03 01:22+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2016-07-05 23:42+0100\n"
+"Last-Translator: Thomas Gratier <thomas.gratier@webgeodatavore.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: fr\n"
 
 #: ../../intro/documentation.rst:2
 msgid "Documentation"
-msgstr ""
+msgstr "Documentation"
 
 #: ../../intro/documentation.rst:5
 msgid "Official Documentation"
-msgstr ""
+msgstr "Documentation officielle"
 
 #: ../../intro/documentation.rst:7
-msgid "The official Python Language and Library documentation can be found here:"
+msgid ""
+"The official Python Language and Library documentation can be found here:"
 msgstr ""
+"La documentation de la bibliothèque et du langage Python officiel peut être "
+"trouvée ici:"
 
 #: ../../intro/documentation.rst:9
 msgid "`Python 2.x <https://docs.python.org/2/>`_"
-msgstr ""
+msgstr "`Python 2.x <https://docs.python.org/2/>`_"
 
 #: ../../intro/documentation.rst:10
 msgid "`Python 3.x <https://docs.python.org/3/>`_"
-msgstr ""
+msgstr "`Python 3.x <https://docs.python.org/3/>`_"
 
 #: ../../intro/documentation.rst:14
 msgid "Read the Docs"
-msgstr ""
+msgstr "Read the Docs"
 
 #: ../../intro/documentation.rst:16
 msgid ""
-"Read the Docs is a popular community project that hosts documentation for"
-" open source software. It holds documentation for many Python modules, "
-"both popular and exotic."
+"Read the Docs is a popular community project that hosts documentation for "
+"open source software. It holds documentation for many Python modules, both "
+"popular and exotic."
 msgstr ""
+"Read the Docs est un projet communautaire populaire qui héberge la "
+"documentation de logiciels open source. Il contient la documentation de "
+"nombreux modules Python, à la fois ceux populaires comme ceux exotiques."
 
 #: ../../intro/documentation.rst:20
 msgid "`Read the Docs <https://readthedocs.org/>`_"
-msgstr ""
+msgstr "`Read the Docs <https://readthedocs.org/>`_"
 
 #: ../../intro/documentation.rst:24
 msgid "pydoc"
-msgstr ""
+msgstr "pydoc"
 
 #: ../../intro/documentation.rst:26
 msgid ""
-":program:`pydoc` is a utility that is installed when you install Python. "
-"It allows you to quickly retrieve and search for documentation from your "
-"shell. For example, if you needed a quick refresher on the :mod:`time` "
-"module, pulling up documentation would be as simple as"
+":program:`pydoc` is a utility that is installed when you install Python. It "
+"allows you to quickly retrieve and search for documentation from your shell. "
+"For example, if you needed a quick refresher on the :mod:`time` module, "
+"pulling up documentation would be as simple as"
 msgstr ""
+":program:`pydoc` est un utilitaire qui est installé lorsque vous installez "
+"Python. Il vous permet de récupérer et rechercher rapidement de la "
+"documentation depuis votre terminal. Par exemple, si vous avez besoin  d'un "
+"rapide rappel sur le module :mod:`time`, récupérer la documentation serait "
+"aussi simple que"
 
 #: ../../intro/documentation.rst:35
 msgid ""
-"The above command is essentially equivalent to opening the Python REPL "
-"and running"
+"The above command is essentially equivalent to opening the Python REPL and "
+"running"
 msgstr ""
-
+"La ligne de commande ci-dessus est essentiellement l'équivalent d'ouvrir la "
+"ligne de commande Python interactive et de l'exécuter"
