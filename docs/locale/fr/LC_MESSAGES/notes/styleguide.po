@@ -7,222 +7,271 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-03 01:22+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2016-07-05 04:24+0100\n"
+"Last-Translator: Thomas Gratier <thomas.gratier@webgeodatavore.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: fr\n"
 
 #: ../../notes/styleguide.rst:5
 msgid "The Guide Style Guide"
-msgstr ""
+msgstr "Le guide de style du guide"
 
 #: ../../notes/styleguide.rst:7
 msgid ""
 "As with all documentation, having a consistent format helps make the "
-"document more understandable. In order to make The Guide easier to "
-"digest, all contributions should fit within the rules of this style guide"
-" where appropriate."
+"document more understandable. In order to make The Guide easier to digest, "
+"all contributions should fit within the rules of this style guide where "
+"appropriate."
 msgstr ""
+"Comme avec toute documentation, avoir un format consistant aide à rendre le "
+"document plus compréhensible. Afin de rendre ce guide plus facile à "
+"assimiler, toutes les contributions doivent se tenir aux règles de ce guide "
+"de style, le cas échéant."
 
 #: ../../notes/styleguide.rst:12
 msgid "The Guide is written as :ref:`restructuredtext-ref`."
-msgstr ""
+msgstr "Le guide est écrit avec du :ref:`restructuredtext-ref`."
 
 #: ../../notes/styleguide.rst:14
 msgid ""
-"Parts of The Guide may not yet match this style guide. Feel free to "
-"update those parts to be in sync with The Guide Style Guide"
+"Parts of The Guide may not yet match this style guide. Feel free to update "
+"those parts to be in sync with The Guide Style Guide"
 msgstr ""
+"Des parties du guide peuvent ne pas respecter encore le guide de style. "
+"N'hésitez pas à mettre à jour ces parties pour les mettre en conformité avec "
+"le guide de style du guide."
 
 #: ../../notes/styleguide.rst:17
 msgid ""
-"On any page of the rendered HTML you can click \"Show Source\" to see how"
-" authors have styled the page."
+"On any page of the rendered HTML you can click \"Show Source\" to see how "
+"authors have styled the page."
 msgstr ""
+"Sur n'importe quelle page du HTML rendu, vous pouvez cliquer \"Afficher le "
+"code source de la page\" pour voir comment les auteurs ont stylé la page."
 
 #: ../../notes/styleguide.rst:21
 msgid "Relevancy"
-msgstr ""
+msgstr "Pertinence"
 
 #: ../../notes/styleguide.rst:23
 msgid ""
-"Strive to keep any contributions relevant to the :ref:`purpose of The "
-"Guide <about-ref>`."
+"Strive to keep any contributions relevant to the :ref:`purpose of The Guide "
+"<about-ref>`."
 msgstr ""
+"Efforcez-vous de garder toutes les contributions relatives aux :ref:`but du "
+"guide <about-ref>`."
 
 #: ../../notes/styleguide.rst:26
 msgid ""
-"Avoid including too much information on subjects that don't directly "
-"relate to Python development."
+"Avoid including too much information on subjects that don't directly relate "
+"to Python development."
 msgstr ""
+"Évitez d'inclure trop d'information sur des sujets qui ne sont pas "
+"directement liés au développement Python."
 
 #: ../../notes/styleguide.rst:28
 msgid ""
-"Prefer to link to other sources if the information is already out there. "
-"Be sure to describe what and why you are linking."
+"Prefer to link to other sources if the information is already out there. Be "
+"sure to describe what and why you are linking."
 msgstr ""
+"Préférez faire un lien vers d'autres sources si l'information est déjà "
+"sortie. Assurez-vous de décrire quoi et pourquoi vous faites un lien."
 
 #: ../../notes/styleguide.rst:30
 msgid ""
-"`Cite <http://sphinx.pocoo.org/rest.html?highlight=citations#citations>`_"
-" references where needed."
+"`Cite <http://sphinx.pocoo.org/rest.html?highlight=citations#citations>`_ "
+"references where needed."
 msgstr ""
+"`Citez <http://sphinx.pocoo.org/rest.html?highlight=citations#citations>`_ "
+"les références quand c'est nécessaire."
 
 #: ../../notes/styleguide.rst:32
 msgid ""
-"If a subject isn't directly relevant to Python, but useful in conjunction"
-" with Python (e.g., Git, GitHub, Databases), reference by linking to "
-"useful resources, and describe why it's useful to Python."
+"If a subject isn't directly relevant to Python, but useful in conjunction "
+"with Python (e.g., Git, GitHub, Databases), reference by linking to useful "
+"resources, and describe why it's useful to Python."
 msgstr ""
+"Si un sujet n'est pas directement pertinent pour Python, mais est utile en "
+"conjonction avec Python (c'est à dire Git, GitHub, les bases de données), "
+"référencez en faisant un lien vers des ressources utiles, et décrivez "
+"pourquoi c'est utile pour Python."
 
 #: ../../notes/styleguide.rst:35
 msgid "When in doubt, ask."
-msgstr ""
+msgstr "En cas de doute, demandez."
 
 #: ../../notes/styleguide.rst:38
 msgid "Headings"
-msgstr ""
+msgstr "Rubriques"
 
 #: ../../notes/styleguide.rst:40
 msgid "Use the following styles for headings."
-msgstr ""
+msgstr "Utilisez les styles suivants pour les rubriques."
 
 #: ../../notes/styleguide.rst:42
 msgid "Chapter title:"
-msgstr ""
+msgstr "Titre du chapitre:"
 
 #: ../../notes/styleguide.rst:50
 msgid "Page title:"
-msgstr ""
+msgstr "Titre de page:"
 
 #: ../../notes/styleguide.rst:58
 msgid "Section headings:"
-msgstr ""
+msgstr "Rubriques de la section:"
 
 #: ../../notes/styleguide.rst:65
 msgid "Sub section headings:"
-msgstr ""
+msgstr "Rubriques de la sous-section:"
 
 #: ../../notes/styleguide.rst:73
 msgid "Prose"
-msgstr ""
+msgstr "Prose"
 
 #: ../../notes/styleguide.rst:75
 msgid ""
 "Wrap text lines at 78 characters. Where necessary, lines may exceed 78 "
-"characters, especially if wrapping would make the source text more "
-"difficult to read."
+"characters, especially if wrapping would make the source text more difficult "
+"to read."
 msgstr ""
+"Faites des retours à la ligne à 78 caractères. Quand c'est nécessaire, les "
+"lignes peuvent dépasser 78 caractères, particulièrement si faire des retours "
+"à la ligne rend le texte source plus difficile à lire."
 
 #: ../../notes/styleguide.rst:79
 msgid ""
 "Use of the `serial comma <https://en.wikipedia.org/wiki/Serial_comma>`_ "
-"(also known as the Oxford comma) is 100% non-optional. Any attempt to "
-"submit content with a missing serial comma will result in permanent "
-"banishment from this project, due to complete and total lack of taste."
+"(also known as the Oxford comma) is 100% non-optional. Any attempt to submit "
+"content with a missing serial comma will result in permanent banishment from "
+"this project, due to complete and total lack of taste."
 msgstr ""
+"Utilisez `la virgule de série <https://en.wikipedia.org/wiki/Serial_comma>`_ "
+"(aussi connue comme la virgule d'Oxford) est 100% non-optionnel. Toute "
+"tentative pour soumettre un contenu avec une virgule manquante donnera lie à "
+"un bannissement permanent de ce projet, pour cause d'absence complète et "
+"totale de goût."
 
 #: ../../notes/styleguide.rst:84
 msgid "Banishment? Is this a joke? Hopefully we will never have to find out."
 msgstr ""
+"Bannissement? C'est une blague? Nous espérons ne jamais avoir à le découvrir."
 
 #: ../../notes/styleguide.rst:87
 msgid "Code Examples"
-msgstr ""
+msgstr "Exemples de code"
 
 #: ../../notes/styleguide.rst:89
 msgid "Wrap all code examples at 70 characters to avoid horizontal scrollbars."
 msgstr ""
+"Faites des retours à la ligne à 70 caractères pour tous les exemples de "
+"code, pour éviter des barres de défilement horizontales."
 
 #: ../../notes/styleguide.rst:91
 msgid "Command line examples:"
-msgstr ""
+msgstr "Exemples de ligne de commande:"
 
 #: ../../notes/styleguide.rst:100
 msgid "Be sure to include the ``$`` prefix before each line."
-msgstr ""
+msgstr "Assurez-vous d'inclure le préfixe ``$`` avant chaque ligne."
 
 #: ../../notes/styleguide.rst:102
 msgid "Python interpreter examples:"
-msgstr ""
+msgstr "Exemples d'interpréteur Python:"
 
 #: ../../notes/styleguide.rst:112
 msgid "Python examples:"
-msgstr ""
+msgstr "Exemples d'interpréteur Python:"
 
 #: ../../notes/styleguide.rst:124
 msgid "Externally Linking"
-msgstr ""
+msgstr "Liens externes"
 
 #: ../../notes/styleguide.rst:126
 msgid "Prefer labels for well known subjects (ex: proper nouns) when linking:"
 msgstr ""
+"Préférez des étiquettes pour les sujets biens connus (ex: des noms complets) "
+"quand vous faites des liens:"
 
 #: ../../notes/styleguide.rst:134
 msgid ""
-"Prefer to use descriptive labels with inline links instead of leaving "
-"bare links:"
+"Prefer to use descriptive labels with inline links instead of leaving bare "
+"links:"
 msgstr ""
+"Préférez utiliser des étiquettes descriptives pour les liens \"inline\" "
+"plutôt que de laisser des liens en brut:"
 
 #: ../../notes/styleguide.rst:141
 msgid ""
 "Avoid using labels such as \"click here\", \"this\", etc. preferring "
 "descriptive labels (SEO worthy) instead."
 msgstr ""
+"Evitez d'utiliser des étiquettes comme \"cliquez ici\", \"ceci\", etc. "
+"Préférez des étiquettes descriptives (notamment pour le référencement) à la "
+"place."
 
 #: ../../notes/styleguide.rst:145
 msgid "Linking to Sections in The Guide"
-msgstr ""
+msgstr "Liens vers des sections dans le guide"
 
 #: ../../notes/styleguide.rst:147
 msgid ""
-"To cross-reference other parts of this documentation, use the `:ref: "
-"<http://sphinx.pocoo.org/markup/inline.html#cross-referencing-arbitrary-"
-"locations>`_ keyword and labels."
+"To cross-reference other parts of this documentation, use the `:ref: <http://"
+"sphinx.pocoo.org/markup/inline.html#cross-referencing-arbitrary-locations>`_ "
+"keyword and labels."
 msgstr ""
+"Pour faire des références croisées à d'autres parties de cette "
+"documentation, utilisez mot-clé et étiquettes `:ref: <http://sphinx.pocoo."
+"org/markup/inline.html#cross-referencing-arbitrary-locations>`_."
 
 #: ../../notes/styleguide.rst:151
 msgid ""
-"To make reference labels more clear and unique, always add a ``-ref`` "
-"suffix:"
+"To make reference labels more clear and unique, always add a ``-ref`` suffix:"
 msgstr ""
+"Pour faire référence aux étiquettes plus claires et uniques, ajoutez "
+"toujours un suffixe``-ref``:"
 
 #: ../../notes/styleguide.rst:161
 msgid "Notes and Warnings"
-msgstr ""
+msgstr "Notes et alertes"
 
 #: ../../notes/styleguide.rst:163
 msgid ""
-"Make use of the appropriate `admonitions directives "
-"<http://sphinx.pocoo.org/rest.html#directives>`_ when making notes."
+"Make use of the appropriate `admonitions directives <http://sphinx.pocoo.org/"
+"rest.html#directives>`_ when making notes."
 msgstr ""
+"Utilisez `les directives d'admonitions <http://sphinx.pocoo.org/rest."
+"html#directives>`_ appropriées quand vous ajoutez des notes."
 
 #: ../../notes/styleguide.rst:166
 msgid "Notes:"
-msgstr ""
+msgstr "Notes:"
 
 #: ../../notes/styleguide.rst:175
 msgid "Warnings:"
-msgstr ""
+msgstr "Alertes:"
 
 #: ../../notes/styleguide.rst:182
 msgid "TODOs"
-msgstr ""
+msgstr "TODOs"
 
 #: ../../notes/styleguide.rst:184
 msgid ""
-"Please mark any incomplete areas of The Guide with a `todo directive "
-"<http://sphinx.pocoo.org/ext/todo.html?highlight=todo#directive-todo>`_. "
-"To avoid cluttering the :ref:`todo-list-ref`, use a single ``todo`` for "
-"stub documents or large incomplete sections."
+"Please mark any incomplete areas of The Guide with a `todo directive <http://"
+"sphinx.pocoo.org/ext/todo.html?highlight=todo#directive-todo>`_. To avoid "
+"cluttering the :ref:`todo-list-ref`, use a single ``todo`` for stub "
+"documents or large incomplete sections."
 msgstr ""
-
+"Merci de marquer tous les endroits incomplets du guide avec une `directive "
+"todo <http://sphinx.pocoo.org/ext/todo.html?highlight=todo#directive-"
+"todo>`_. Pour éviter d'encombrer la :ref:`todo-list-ref`, utilisez un seul "
+"``todo`` pour les bouts de code ou les sections incomplètes importantes."
