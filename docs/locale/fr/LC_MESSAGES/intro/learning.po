@@ -7,330 +7,411 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-03 01:22+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2016-07-08 00:15+0100\n"
+"Last-Translator: Thomas Gratier <thomas.gratier@webgeodatavore.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
+"Language: fr\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: ../../intro/learning.rst:2
 msgid "Learning Python"
-msgstr ""
+msgstr "Apprendre Python"
 
 #: ../../intro/learning.rst:5
 msgid "Beginner"
-msgstr ""
+msgstr "Débutant"
 
 #: ../../intro/learning.rst:8
 msgid "The Python Tutorial"
-msgstr ""
+msgstr "Le tutoriel Python"
 
 #: ../../intro/learning.rst:10
 msgid ""
-"This is the official tutorial. It covers all the basics, and offers a "
-"tour of the language and the standard library. Recommended for those who "
-"need a quick-start guide to the language."
+"This is the official tutorial. It covers all the basics, and offers a tour "
+"of the language and the standard library. Recommended for those who need a "
+"quick-start guide to the language."
 msgstr ""
+"C'est le tutoriel officiel. Il couvre tous les basiques et offre une visite "
+"guidée du langage et de la bibliothèque standard. Il est recommandé pour "
+"ceux qui ont besoin d'un guide pour démarrer rapidement sur la langage."
 
 #: ../../intro/learning.rst:14
 msgid "`The Python Tutorial <http://docs.python.org/tutorial/index.html>`_"
 msgstr ""
+"`Le tutoriel Python <https://www.afpy.org/doc/python/3.5/tutorial/>`_ (fr)"
 
 #: ../../intro/learning.rst:17
 msgid "Python for Beginners"
-msgstr ""
+msgstr "Python for Beginners"
 
 #: ../../intro/learning.rst:19
 msgid ""
-"thepythonguru.com is a tutorial focuses on beginner programmers. It "
-"covers many python concepts in depth. It also teaches you some advance "
-"constructs of python like lambda expression, regular expression. At last "
-"it finishes off with  tutorial \"How to access MySQL db using python\""
+"thepythonguru.com is a tutorial focuses on beginner programmers. It covers "
+"many python concepts in depth. It also teaches you some advance constructs "
+"of python like lambda expression, regular expression. At last it finishes "
+"off with  tutorial \"How to access MySQL db using python\""
 msgstr ""
+"thepythonguru.com est un tutoriel, en anglais, se concentrant sur les "
+"programmeurs débutants. Il couvre de nombreux concepts Python en profondeur. "
+"Il vous enseigne aussi des concepts avancés de Python comme les expressions "
+"lambda ou les expressions régulières. Enfin, il termine le tutoriel  sur"
+"\"Comment accéder à une base de données MySQL en utilisant Python\""
 
 #: ../../intro/learning.rst:24
 msgid "`Python for beginners <http://thepythonguru.com/>`_"
-msgstr ""
+msgstr "`Python for beginners <http://thepythonguru.com/>`_"
 
 #: ../../intro/learning.rst:27
 msgid "Learn Python Interactive Tutorial"
-msgstr ""
+msgstr "Tutoriel interactif Learn Python"
 
 #: ../../intro/learning.rst:29
 msgid ""
-"Learnpython.org is an easy non-intimidating way to get introduced to "
-"Python. The website takes the same approach used on the popular `Try Ruby"
-" <http://tryruby.org/>`_ website, it has an interactive Python "
-"interpreter built into the site that allows you to go through the lessons"
-" without having to install Python locally."
+"Learnpython.org is an easy non-intimidating way to get introduced to Python. "
+"The website takes the same approach used on the popular `Try Ruby <http://"
+"tryruby.org/>`_ website, it has an interactive Python interpreter built into "
+"the site that allows you to go through the lessons without having to install "
+"Python locally."
 msgstr ""
+"Learnpython.org est une manière facile et non-intimidante d'être introduit à "
+"Python. Le site web prend la même approche utilisée par le site web "
+"populaire`Try Ruby <http://tryruby.org/>`_. Il a un interpréteur Python "
+"interactif encapsulé dans le site qui vous permet de parcourir les leçons "
+"sans avoir à installer Python localement."
 
 #: ../../intro/learning.rst:35
 msgid "`Learn Python <http://www.learnpython.org/>`_"
-msgstr ""
+msgstr "`Learn Python <http://www.learnpython.org/>`_"
 
 #: ../../intro/learning.rst:38
 msgid ""
-"If you want a more traditional book, *Python For You and Me* is an "
-"excellent resource for learning all aspects of the language."
+"If you want a more traditional book, *Python For You and Me* is an excellent "
+"resource for learning all aspects of the language."
 msgstr ""
+"Si vous voulez une livre plus traditionnel, *Python For You and Me* est une "
+"excellente ressource pour apprendre tous les aspects du langage."
 
 #: ../../intro/learning.rst:41
 msgid "`Python for You and Me <http://pymbook.readthedocs.org/>`_"
-msgstr ""
+msgstr "`Python for You and Me <http://pymbook.readthedocs.org/>`_"
 
 #: ../../intro/learning.rst:44
 msgid "Online Python Tutor"
-msgstr ""
+msgstr "Online Python Tutor"
 
 #: ../../intro/learning.rst:46
 msgid ""
-"Online Python Tutor gives you a visual step by step representation of how"
-" your program runs. Python Tutor helps people overcome a fundamental "
-"barrier to learning programming by understanding what happens as the "
-"computer executes each line of a program's source code."
+"Online Python Tutor gives you a visual step by step representation of how "
+"your program runs. Python Tutor helps people overcome a fundamental barrier "
+"to learning programming by understanding what happens as the computer "
+"executes each line of a program's source code."
 msgstr ""
+"Online Python Tutor vous donne une représentation visuelle pas à pas de la "
+"façon dont votre programme fonctionne. Python Tutor aide les gens à dépasser "
+"une barrière fondamentale pour apprendre à programmer en comprenant ce qu'il "
+"se passe quand l'ordinateur exécute chaque ligne de source code du programme."
 
 #: ../../intro/learning.rst:52
 msgid "`Online Python Tutor <http://pythontutor.com/>`_"
-msgstr ""
+msgstr "`Online Python Tutor <http://pythontutor.com/>`_"
 
 #: ../../intro/learning.rst:55
 msgid "Invent Your Own Computer Games with Python"
-msgstr ""
+msgstr "Invent Your Own Computer Games with Python"
 
 #: ../../intro/learning.rst:57
 msgid ""
 "This beginner's book is for those with no programming experience at all. "
 "Each chapter has the source code to a small game, using these example "
-"programs to demonstrate programming concepts to give the reader an idea "
-"of what programs \"look like\"."
+"programs to demonstrate programming concepts to give the reader an idea of "
+"what programs \"look like\"."
 msgstr ""
+"Ce livre pour débutant est pour ceux qui n'ont pas d'expérience en "
+"programmation du tout. Chaque chapitre a un code source pour une petit jeu, "
+"utilisant ces programmes exemple pour démontrer des concepts de "
+"programmation pour donner au lecteur une idée de ce à quoi les programmes "
+"\"ressemblent\"."
 
 #: ../../intro/learning.rst:62
 msgid ""
-"`Invent Your Own Computer Games with Python "
-"<http://inventwithpython.com/>`_"
+"`Invent Your Own Computer Games with Python <http://inventwithpython.com/>`_"
 msgstr ""
+"`Invent Your Own Computer Games with Python <http://inventwithpython.com/>`_"
 
 #: ../../intro/learning.rst:66
 msgid "Hacking Secret Ciphers with Python"
-msgstr ""
+msgstr "Hacking Secret Ciphers with Python"
 
 #: ../../intro/learning.rst:68
 msgid ""
 "This book teaches Python programming and basic cryptography for absolute "
-"beginners. The chapters provide the source code for various ciphers, as "
-"well as programs that can break them."
+"beginners. The chapters provide the source code for various ciphers, as well "
+"as programs that can break them."
 msgstr ""
+"Ce livre enseigne la programmation Python et de la cryptographie de base "
+"pour les débutants absolus. Les chapitres fournissent le code source pour "
+"divers chiffrements, ainsi que des programmes qui peuvent les briser."
 
 #: ../../intro/learning.rst:72
 msgid ""
-"`Hacking Secret Ciphers with Python "
-"<http://inventwithpython.com/hacking/>`_"
+"`Hacking Secret Ciphers with Python <http://inventwithpython.com/hacking/>`_"
 msgstr ""
+"`Hacking Secret Ciphers with Python <http://inventwithpython.com/hacking/>`_"
 
 #: ../../intro/learning.rst:76
 msgid "Learn Python the Hard Way"
-msgstr ""
+msgstr "Learn Python the Hard Way"
 
 #: ../../intro/learning.rst:78
 msgid ""
 "This is an excellent beginner programmer's guide to Python. It covers "
 "\"hello world\" from the console to the web."
 msgstr ""
+"Ceci est un excellent guide pour le programmeur débutant sur Python. Il "
+"couvre \"hello world\" de la console jusqu'au web."
 
 #: ../../intro/learning.rst:81
 msgid "`Learn Python the Hard Way <http://learnpythonthehardway.org/book/>`_"
-msgstr ""
+msgstr "`Learn Python the Hard Way <http://learnpythonthehardway.org/book/>`_"
 
 #: ../../intro/learning.rst:85
 msgid "Crash into Python"
-msgstr ""
+msgstr "Crash into Python"
 
 #: ../../intro/learning.rst:87
 msgid ""
 "Also known as *Python for Programmers with 3 Hours*, this guide gives "
 "experienced developers from other languages a crash course on Python."
 msgstr ""
+"Aussi connu sous le nom *Python for Programmers with 3 Hours*, ce guide "
+"donne aux développeurs expérimentés venant d'autres langages un cours "
+"accéléré sur Python."
 
 #: ../../intro/learning.rst:90
 msgid "`Crash into Python <http://stephensugden.com/crash_into_python/>`_"
-msgstr ""
+msgstr "`Crash into Python <http://stephensugden.com/crash_into_python/>`_"
 
 #: ../../intro/learning.rst:94
 msgid "Dive Into Python 3"
-msgstr ""
+msgstr "Dive Into Python 3"
 
 #: ../../intro/learning.rst:96
 msgid ""
-"Dive Into Python 3 is a good book for those ready to jump in to Python 3."
-" It's a good read if you are moving from Python 2 to 3 or if you already "
-"have some experience programming in another language."
+"Dive Into Python 3 is a good book for those ready to jump in to Python 3. "
+"It's a good read if you are moving from Python 2 to 3 or if you already have "
+"some experience programming in another language."
 msgstr ""
+"Dive Into Python 3 est un bon livre pour ceux qui sont prêts à passer à "
+"Python 3. C'est une bonne lecture si vous passer de de Python 2 à 3 ou si "
+"vous avez déjà un peu d'expérience en programmation dans un autre langage."
 
 #: ../../intro/learning.rst:100
 msgid "`Dive Into Python 3 <http://www.diveinto.org/python3/>`_"
-msgstr ""
+msgstr "`Dive Into Python 3 <http://www.diveinto.org/python3/>`_"
 
 #: ../../intro/learning.rst:104
 msgid "Think Python: How to Think Like a Computer Scientist"
-msgstr ""
+msgstr "Think Python: How to Think Like a Computer Scientist"
 
 #: ../../intro/learning.rst:106
 msgid ""
-"Think Python attempts to give an introduction to basic concepts in "
-"computer science through the use of the Python language. The focus was to"
-" create a book with plenty of exercises, minimal jargon and a section in "
-"each chapter devoted to the subject of debugging."
+"Think Python attempts to give an introduction to basic concepts in computer "
+"science through the use of the Python language. The focus was to create a "
+"book with plenty of exercises, minimal jargon and a section in each chapter "
+"devoted to the subject of debugging."
 msgstr ""
+"Think Python tente de donner une introduction aux concepts de base en "
+"informatique via l'utilisation du langage Python. L'objectif était de créer "
+"un livre avec de nombreux exercices, un jargon minimal et une section dans "
+"chaque chapitre consacré au débugage."
 
 #: ../../intro/learning.rst:111
 msgid ""
-"While exploring the various features available in the Python language the"
-" author weaves in various design patterns and best practices."
+"While exploring the various features available in the Python language the "
+"author weaves in various design patterns and best practices."
 msgstr ""
+"Tout en explorant les différentes fonctionnalités disponibles dans le "
+"langage Python, l'auteur tisse dans divers design patterns et les meilleures "
+"pratiques."
 
 #: ../../intro/learning.rst:114
 msgid ""
-"The book also includes several case studies which have the reader explore"
-" the topics discussed in the book in greater detail by applying those "
-"topics to real-world examples. Case studies include assignments in GUI "
-"and Markov Analysis."
+"The book also includes several case studies which have the reader explore "
+"the topics discussed in the book in greater detail by applying those topics "
+"to real-world examples. Case studies include assignments in GUI and Markov "
+"Analysis."
 msgstr ""
+"Le livre inclue également plusieurs études de cas qui font explorer par le "
+"lecteur les thèmes abordés dans le livre plus en détail en appliquant ces "
+"sujets à des exemples du monde réel. Les études de cas comprennent des "
+"devoirs sur les interfaces graphiques et l'analyse de Markov."
 
 #: ../../intro/learning.rst:119
 msgid "`Think Python <http://greenteapress.com/thinkpython/html/index.html>`_"
-msgstr ""
+msgstr "`Think Python <http://greenteapress.com/thinkpython/html/index.html>`_"
 
 #: ../../intro/learning.rst:123
 msgid "Python Koans"
-msgstr ""
+msgstr "Python Koans"
 
 #: ../../intro/learning.rst:125
 msgid ""
 "Python Koans is a port of Edgecase's Ruby Koans.  It uses a test-driven "
-"approach, q.v. TEST DRIVEN DESIGN SECTION to provide an interactive "
-"tutorial teaching basic Python concepts.  By fixing assertion statements "
-"that fail in a test script, this provides sequential steps to learning "
-"Python."
+"approach, q.v. TEST DRIVEN DESIGN SECTION to provide an interactive tutorial "
+"teaching basic Python concepts.  By fixing assertion statements that fail in "
+"a test script, this provides sequential steps to learning Python."
 msgstr ""
+"Python Koans est un port de Ruby Koans par Edgecase. Il utilise un approche "
+"dirigé par le test, voir la SECTION CONCEPTION PILOTÉE PAR LES TESTS pour "
+"fournir un tutoriel interactif pour enseigner les concepts de base Python. "
+"En corrigeant les déclarations d'assertion qui ne échouent dans un script de "
+"test, cela fournit des étapes séquentielles pour apprendre Python."
 
 #: ../../intro/learning.rst:130
 msgid ""
-"For those used to languages and figuring out puzzles on their own, this "
-"can be a fun, attractive option. For those new to Python and programming,"
-" having an additional resource or reference will be helpful."
+"For those used to languages and figuring out puzzles on their own, this can "
+"be a fun, attractive option. For those new to Python and programming, having "
+"an additional resource or reference will be helpful."
 msgstr ""
+"Pour ceux qui sont habitués aux langages et à résoudre des puzzles eux-"
+"mêmes, cela peut être un option attrayante, amusante. Pour ceux qui "
+"découvrent Python et la programmation, avoir  une ressource ou référence "
+"supplémentaire peut s'avérer utile."
 
 #: ../../intro/learning.rst:134
 msgid "`Python Koans <http://bitbucket.org/gregmalcolm/python_koans>`_"
-msgstr ""
+msgstr "`Python Koans <http://bitbucket.org/gregmalcolm/python_koans>`_"
 
 #: ../../intro/learning.rst:136
 msgid ""
 "More information about test driven development can be found at these "
 "resources:"
 msgstr ""
+"Plus d'informations sur le développement piloté par les tests peuvent être "
+"trouvées via ces ressources:"
 
 #: ../../intro/learning.rst:138
 msgid ""
 "`Test Driven Development <http://en.wikipedia.org/wiki/Test-"
 "driven_development>`_"
 msgstr ""
+"`Test Driven Development <http://en.wikipedia.org/wiki/Test-"
+"driven_development>`_"
 
 #: ../../intro/learning.rst:142
 msgid "A Byte of Python"
-msgstr ""
+msgstr "A Byte of Python"
 
 #: ../../intro/learning.rst:144
 msgid ""
 "A free introductory book that teaches Python at the beginner level, it "
 "assumes no previous programming experience."
 msgstr ""
+"Un livre d'introduction gratuit qui enseigne Python au niveau débutant. Il "
+"assume aucun expérience préalable en programmation."
 
 #: ../../intro/learning.rst:147
 msgid ""
-"`A Byte of Python for Python 2.x "
-"<http://www.ibiblio.org/swaroopch/byteofpython/read/>`_ `A Byte of Python"
-" for Python 3.x <http://swaroopch.com/notes/Python_en-Preface/>`_"
+"`A Byte of Python for Python 2.x <http://www.ibiblio.org/swaroopch/"
+"byteofpython/read/>`_ `A Byte of Python for Python 3.x <http://swaroopch.com/"
+"notes/Python_en-Preface/>`_"
 msgstr ""
+"`A Byte of Python for Python 2.x <http://www.ibiblio.org/swaroopch/"
+"byteofpython/read/>`_ `A Byte of Python for Python 3.x <http://swaroopch.com/"
+"notes/Python_en-Preface/>`_"
 
 #: ../../intro/learning.rst:152
 msgid "Learn to Program in Python with Codeacademy"
-msgstr ""
+msgstr "Apprendre à programmer en Python avec Codecademy (fr)"
 
 #: ../../intro/learning.rst:154
 msgid ""
 "A Codeacademy course for the absolute Python beginner. This free and "
-"interactive course provides and teaches the basics (and beyond) of Python"
-" programming whilst testing the user's knowledge in between progress. "
-"This course also features a built-in interpreter for receiving instant "
-"feedback on your learning."
+"interactive course provides and teaches the basics (and beyond) of Python "
+"programming whilst testing the user's knowledge in between progress. This "
+"course also features a built-in interpreter for receiving instant feedback "
+"on your learning."
 msgstr ""
+"Un cours Codecademy pour le vrai débutant Python. Ce cours gratuit et "
+"interactif offre et enseigne les bases (et au-delà) de la programmation "
+"Python tout en testant les connaissances de l'utilisateur au fur et à mesure "
+"de la progression. Ce cours comprend également un interpréteur intégré pour "
+"avoir un retour immédiat sur votre apprentissage."
 
 #: ../../intro/learning.rst:157
 msgid ""
-"`Learn to Program in Python with Codeacademy "
-"<http://www.codecademy.com/en/tracks/python>`_"
+"`Learn to Program in Python with Codeacademy <http://www.codecademy.com/en/"
+"tracks/python>`_"
 msgstr ""
+"`Apprendre à programmer en Python avec Codecademy <http://www.codecademy.com/"
+"fr/tracks/python>`_  (fr)"
 
 #: ../../intro/learning.rst:161
 msgid "Intermediate"
-msgstr ""
+msgstr "Intermédiaire"
 
 #: ../../intro/learning.rst:164
 msgid "Effective Python"
-msgstr ""
+msgstr "Effective Python"
 
 #: ../../intro/learning.rst:166
 msgid ""
-"This book contains 59 specific ways to improve writing Pythonic code. At "
-"227 pages, it is a very brief overview of some of the most commons "
-"adapations programmers need to make to become efficient intermediate "
-"level Python programmers."
+"This book contains 59 specific ways to improve writing Pythonic code. At 227 "
+"pages, it is a very brief overview of some of the most commons adapations "
+"programmers need to make to become efficient intermediate level Python "
+"programmers."
 msgstr ""
+"Ce livre contient 59 façons spécifiques pour améliorer l'écriture de code "
+"\"pythonique\". Avec 227 pages, c'est un très bref aperçu de quelques-unes "
+"des adaptations les plus communes que les programmeurs doivent faire pour "
+"devenir des programmeurs Python de niveau intermédiaire."
 
 #: ../../intro/learning.rst:171
 msgid "`Effective Python <http://www.effectivepython.com/>`_"
-msgstr ""
+msgstr "`Effective Python <http://www.effectivepython.com/>`_"
 
 #: ../../intro/learning.rst:175
 msgid "Advanced"
-msgstr ""
+msgstr "Avancé"
 
 #: ../../intro/learning.rst:178
 msgid "Pro Python"
-msgstr ""
+msgstr "Pro Python"
 
 #: ../../intro/learning.rst:180
 msgid ""
-"This book is for intermediate to advanced Python programmers who are "
-"looking to understand how and why Python works the way it does and how "
-"they can take their code to the next level."
+"This book is for intermediate to advanced Python programmers who are looking "
+"to understand how and why Python works the way it does and how they can take "
+"their code to the next level."
 msgstr ""
+"Ce livre est pour les programmeurs Python, intermédiaires à avancés, qui "
+"cherchent à comprendre comment et pourquoi Python fonctionne comme il le "
+"fait et comment ils peuvent faire passer leur code  au niveau supérieur."
 
 #: ../../intro/learning.rst:184
 msgid "`Pro Python <http://propython.com>`_"
-msgstr ""
+msgstr "`Pro Python <http://propython.com>`_"
 
 #: ../../intro/learning.rst:188
 msgid "Expert Python Programming"
-msgstr ""
+msgstr "Expert Python Programming"
 
 #: ../../intro/learning.rst:189
 msgid ""
-"Expert Python Programming deals with best practices in programming Python"
-" and is focused on the more advanced crowd."
+"Expert Python Programming deals with best practices in programming Python "
+"and is focused on the more advanced crowd."
 msgstr ""
+"Expert Python Programming traite des meilleures pratiques en matière de "
+"programmation Python et se concentre sur le public plus avancé."
 
 #: ../../intro/learning.rst:192
 msgid ""
@@ -338,47 +419,68 @@ msgid ""
 "manager case-studies), method resolution order, using super() and meta-"
 "programming, and general :pep:`8` best practices."
 msgstr ""
+"Il commence avec des sujets tels que les décorateurs (avec les études de cas "
+"pour la mise en cache, les proxy et les gestionnaires de contexte), l'ordre "
+"de résolution des méthodes (Method Resolution Order ou MRO), en utilisant "
+"super() et la méta-programmation, et les meilleures pratiques :pep:`8`."
 
 #: ../../intro/learning.rst:196
 msgid ""
 "It has a detailed, multi-chapter case study on writing and releasing a "
-"package and eventually an application, including a chapter on using "
-"zc.buildout.  Later chapters detail best practices such as writing "
-"documentation, test-driven development, version control, optimization and"
-" profiling."
+"package and eventually an application, including a chapter on using zc."
+"buildout.  Later chapters detail best practices such as writing "
+"documentation, test-driven development, version control, optimization and "
+"profiling."
 msgstr ""
+"Il a une étude de cas multi-chapitres détaillée sur l'écriture et la mise à "
+"disposition d'un paquet, éventuellement d'une application, incluant un "
+"chapitre sur l'utilisation de zc.buildout. Les chapitres ultérieurs "
+"détaillent les meilleures pratiques telles que l'écriture de la "
+"documentation, le développement piloté par les tests, la gestion de version, "
+"l'optimisation et le profilage."
 
 #: ../../intro/learning.rst:201
 msgid ""
 "`Expert Python Programming <http://www.packtpub.com/expert-python-"
 "programming/book>`_"
 msgstr ""
+"`Expert Python Programming <http://www.packtpub.com/expert-python-"
+"programming/book>`_"
 
 #: ../../intro/learning.rst:205
 msgid "A Guide to Python's Magic Methods"
-msgstr ""
+msgstr "A Guide to Python's Magic Methods"
 
 #: ../../intro/learning.rst:207
 msgid ""
 "This is a collection of blog posts by Rafe Kettler which explain 'magic "
-"methods' in Python. Magic methods are surrounded by double underscores "
-"(i.e. __init__) and can make classes and objects behave in different and "
-"magical ways."
+"methods' in Python. Magic methods are surrounded by double underscores (i.e. "
+"__init__) and can make classes and objects behave in different and magical "
+"ways."
 msgstr ""
+"This is a collection of blog posts by Rafe Kettler which explain 'magic "
+"methods' in Python. Magic methods are surrounded by double underscores (i.e. "
+"__init__) and can make classes and objects behave in different and magical "
+"ways.Ceci est une collection de billets de blog par Rafe Kettler qui "
+"expliquent les 'méthodes magiques' en Python. les méthodes magiques sont "
+"entourées par des underscores doubles (comme __init__) et peuvent faire que "
+"les classes et les objets se comportent de façons différentes et magiques."
 
 #: ../../intro/learning.rst:211
 msgid ""
-"`A Guide to Python's Magic Methods "
-"<http://www.rafekettler.com/magicmethods.html>`_"
+"`A Guide to Python's Magic Methods <http://www.rafekettler.com/magicmethods."
+"html>`_"
 msgstr ""
+"`A Guide to Python's Magic Methods <http://www.rafekettler.com/magicmethods."
+"html>`_"
 
 #: ../../intro/learning.rst:215
 msgid "For Engineers and Scientists"
-msgstr ""
+msgstr "Pour les ingénieurs et les scientifiques"
 
 #: ../../intro/learning.rst:218
 msgid "A Primer on Scientific Programming with Python"
-msgstr ""
+msgstr "A Primer on Scientific Programming with Python"
 
 #: ../../intro/learning.rst:220
 msgid ""
@@ -386,223 +488,285 @@ msgid ""
 "Langtangen, mainly covers Python's usage in the scientific field. In the "
 "book, examples are chosen from mathematics and the natural sciences."
 msgstr ""
+"A Primer on Scientific Programming with Python, écrit par Hans Petter "
+"Langtangen, couvre principalement l'usage de Python dans le domaine "
+"scientifique. Dans le livre, les exemples sont choisis dans les scieneces "
+"mathématiques et naturelles."
 
 #: ../../intro/learning.rst:224
 msgid ""
-"`A Primer on Scientific Programming with Python "
-"<http://www.springer.com/mathematics/computational+science+%26+engineering/book/978-3-642-30292-3>`_"
+"`A Primer on Scientific Programming with Python <http://www.springer.com/"
+"mathematics/computational+science+%26+engineering/book/978-3-642-30292-3>`_"
 msgstr ""
+"`A Primer on Scientific Programming with Python <http://www.springer.com/"
+"mathematics/computational+science+%26+engineering/book/978-3-642-30292-3>`_"
 
 #: ../../intro/learning.rst:227
 msgid "Numerical Methods in Engineering with Python"
-msgstr ""
+msgstr "Numerical Methods in Engineering with Python"
 
 #: ../../intro/learning.rst:229
 msgid ""
 "Numerical Methods in Engineering with Python, written by Jaan Kiusalaas, "
-"puts the emphasis on numerical methods and how to implement them in "
-"Python."
+"puts the emphasis on numerical methods and how to implement them in Python."
 msgstr ""
+"Numerical Methods in Engineering with Python, écrit par Jaan Kiusalaas, met "
+"l'accent sur les méthodes numériques et la façon de les implémenter en "
+"Python."
 
 #: ../../intro/learning.rst:232
 msgid ""
-"`Numerical Methods in Engineering with Python "
-"<http://www.cambridge.org/us/academic/subjects/engineering/engineering-"
-"mathematics-and-programming/numerical-methods-engineering-python-2nd-"
-"edition>`_"
+"`Numerical Methods in Engineering with Python <http://www.cambridge.org/us/"
+"academic/subjects/engineering/engineering-mathematics-and-programming/"
+"numerical-methods-engineering-python-2nd-edition>`_"
 msgstr ""
+"`Numerical Methods in Engineering with Python <http://www.cambridge.org/us/"
+"academic/subjects/engineering/engineering-mathematics-and-programming/"
+"numerical-methods-engineering-python-2nd-edition>`_"
 
 #: ../../intro/learning.rst:235
 msgid "Miscellaneous topics"
-msgstr ""
+msgstr "Sujets divers"
 
 #: ../../intro/learning.rst:238
 msgid "Problem Solving with Algorithms and Data Structures"
-msgstr ""
+msgstr "Problem Solving with Algorithms and Data Structures"
 
 #: ../../intro/learning.rst:240
 msgid ""
-"Problem Solving with Algorithms and Data Structures covers a range of "
-"data structures and algorithms. All concepts are illustrated with Python "
-"code along with interactive samples that can be run directly in the "
-"browser."
+"Problem Solving with Algorithms and Data Structures covers a range of data "
+"structures and algorithms. All concepts are illustrated with Python code "
+"along with interactive samples that can be run directly in the browser."
 msgstr ""
+"Problem Solving with Algorithms and Data Structures couvre une étendue de "
+"structures de données et algorithmes. Tous les concepts sont illustrés avec "
+"du code Python accompagné d'exemples interactifs qui peuvent être exécutés "
+"directement dans le navigateur."
 
 #: ../../intro/learning.rst:244
 msgid ""
-"`Problem Solving with Algorithms and Data Structures "
-"<http://www.interactivepython.org/courselib/static/pythonds/index.html>`_"
+"`Problem Solving with Algorithms and Data Structures <http://www."
+"interactivepython.org/courselib/static/pythonds/index.html>`_"
 msgstr ""
+"`Problem Solving with Algorithms and Data Structures <http://www."
+"interactivepython.org/courselib/static/pythonds/index.html>`_"
 
 #: ../../intro/learning.rst:248
 msgid "Programming Collective Intelligence"
-msgstr ""
+msgstr "Programming Collective Intelligence"
 
 #: ../../intro/learning.rst:250
 msgid ""
-"Programming Collective Intelligence introduces a wide array of basic "
-"machine learning and data mining methods. The exposition is not very "
-"mathematically formal, but rather focuses on explaining the underlying "
-"intuition and shows how to implement the algorithms in Python."
+"Programming Collective Intelligence introduces a wide array of basic machine "
+"learning and data mining methods. The exposition is not very mathematically "
+"formal, but rather focuses on explaining the underlying intuition and shows "
+"how to implement the algorithms in Python."
 msgstr ""
+"Programming Collective Intelligence introduit un large éventail de méthodes "
+"de base sur le machine learning et le data mining. L'exposition est pas très "
+"formelle mathématiquement, mais met l'accent sur l'explication d'intuitions "
+"sous-jacentes et montre comment implémenter les algorithmes en Python."
 
 #: ../../intro/learning.rst:255
 msgid ""
-"`Programming Collective Intelligence "
-"<http://shop.oreilly.com/product/9780596529321.do>`_"
+"`Programming Collective Intelligence <http://shop.oreilly.com/"
+"product/9780596529321.do>`_"
 msgstr ""
+"`Programming Collective Intelligence <http://shop.oreilly.com/"
+"product/9780596529321.do>`_"
 
 #: ../../intro/learning.rst:259
 msgid "Transforming Code into Beautiful, Idiomatic Python"
-msgstr ""
+msgstr "Transforming Code into Beautiful, Idiomatic Python"
 
 #: ../../intro/learning.rst:261
 msgid ""
 "Transforming Code into Beautiful, Idiomatic Python is a video by Raymond "
 "Hettinger. Learn to take better advantage of Python's best features and "
-"improve existing code through a series of code transformations, \"When "
-"you see this, do that instead.\""
+"improve existing code through a series of code transformations, \"When you "
+"see this, do that instead.\""
 msgstr ""
+"Transforming Code into Beautiful, Idiomatic Python est une vidéo par Raymond "
+"Hettinger. Apprenez à mieux tirer parti des meilleures fonctionnalités de "
+"Python et à améliorer le code existant via une série de transformations de "
+"code, \"Quand vous voyez ceci, faites cela à la place.\""
 
 #: ../../intro/learning.rst:265
 msgid ""
-"`Transforming Code into Beautiful, Idiomatic Python "
-"<https://www.youtube.com/watch?v=OSGv2VnC0go>`_"
+"`Transforming Code into Beautiful, Idiomatic Python <https://www.youtube.com/"
+"watch?v=OSGv2VnC0go>`_"
 msgstr ""
+"`Transforming Code into Beautiful, Idiomatic Python <https://www.youtube.com/"
+"watch?v=OSGv2VnC0go>`_"
 
 #: ../../intro/learning.rst:269
 msgid "Fullstack Python"
-msgstr ""
+msgstr "Fullstack Python"
 
 #: ../../intro/learning.rst:271
 msgid ""
 "Fullstack Python offers a complete top-to-bottom resource for web "
 "development using Python."
 msgstr ""
+"Fullstack Python offre une ressource complète couvrant toute la chaîne de "
+"production pour le développement web en utilisant Python."
 
 #: ../../intro/learning.rst:274
 msgid ""
 "From setting up the webserver, to designing the front-end, choosing a "
 "database, optimizing/scaling, etc."
 msgstr ""
+"De la mise en place du serveur web, à la conception du front-end, au choix "
+"d'une base de données, à l'optimisation/dimensionnement, etc."
 
 #: ../../intro/learning.rst:277
 msgid ""
 "As the name suggests, it covers everything you need to build and run a "
 "complete web app from scratch."
 msgstr ""
+"Comme le nom le suggère, il couvre tout ce dont vont avez besoin pour "
+"construire et exécuter une application web en partant de zéro."
 
 #: ../../intro/learning.rst:280
 msgid "`Fullstack Python <https://www.fullstackpython.com>`_"
-msgstr ""
+msgstr "`Fullstack Python <https://www.fullstackpython.com>`_"
 
 #: ../../intro/learning.rst:284
 msgid "References"
-msgstr ""
+msgstr "Références"
 
 #: ../../intro/learning.rst:287
 msgid "Python in a Nutshell"
-msgstr ""
+msgstr "Python in a Nutshell"
 
 #: ../../intro/learning.rst:289
 msgid ""
-"Python in a Nutshell, written by Alex Martelli, covers most cross-"
-"platform Python's usage, from its syntax to built-in libraries to "
-"advanced topics such as writing C extensions."
+"Python in a Nutshell, written by Alex Martelli, covers most cross-platform "
+"Python's usage, from its syntax to built-in libraries to advanced topics "
+"such as writing C extensions."
 msgstr ""
+"Python in a Nutshell, écrit par Alex Martelli, couvre la plupart des usages "
+"Python multi-plateforme, de sa syntaxe pour les bibliothèques intégrées aux "
+"sujets avancés comme l'écriture d'extensions C."
 
 #: ../../intro/learning.rst:293
-msgid "`Python in a Nutshell <http://shop.oreilly.com/product/9780596001889.do>`_"
+msgid ""
+"`Python in a Nutshell <http://shop.oreilly.com/product/9780596001889.do>`_"
 msgstr ""
+"`Python in a Nutshell <http://shop.oreilly.com/product/9780596001889.do>`_"
 
 #: ../../intro/learning.rst:296
 msgid "The Python Language Reference"
-msgstr ""
+msgstr "La référence du langage Python"
 
 #: ../../intro/learning.rst:298
 msgid ""
 "This is Python's reference manual, it covers the syntax and the core "
 "semantics of the language."
 msgstr ""
+"C'est le manuel de référence de Python officiel. Il couvre la syntaxe et la "
+"sémantique de base du langage."
 
 #: ../../intro/learning.rst:301
 msgid ""
-"`The Python Language Reference "
-"<http://docs.python.org/reference/index.html>`_"
+"`The Python Language Reference <http://docs.python.org/reference/index."
+"html>`_"
 msgstr ""
+"`La référence du langage Python <http://docs.python.org/reference/index."
+"html>`_ (en)"
 
 #: ../../intro/learning.rst:304
 msgid "Python Essential Reference"
-msgstr ""
+msgstr "Python Essential Reference"
 
 #: ../../intro/learning.rst:306
 msgid ""
 "Python Essential Reference, written by David Beazley, is the definitive "
-"reference guide to Python. It concisely explains both the core language "
-"and the most essential parts of the standard library. It covers Python 3 "
-"and 2.6 versions."
+"reference guide to Python. It concisely explains both the core language and "
+"the most essential parts of the standard library. It covers Python 3 and 2.6 "
+"versions."
 msgstr ""
+"Python Essential Reference, écrit par David Beazley, est le guide de "
+"référence définitif pour Python. Il explique de manière concise tant le cœur "
+"du langage et les parties les plus essentielles de la bibliothèque standard. "
+"Il couvre les versions de Python 3 et 2.6."
 
 #: ../../intro/learning.rst:310
 msgid "`Python Essential Reference <http://www.dabeaz.com/per.html>`_"
-msgstr ""
+msgstr "`Python Essential Reference <http://www.dabeaz.com/per.html>`_"
 
 #: ../../intro/learning.rst:313
 msgid "Python Pocket Reference"
-msgstr ""
+msgstr "Python Pocket Reference"
 
 #: ../../intro/learning.rst:315
 msgid ""
-"Python Pocket Reference, written by Mark Lutz, is an easy to use "
-"reference to the core language, with descriptions of commonly used "
-"modules and toolkits. It covers Python 3 and 2.6 versions."
+"Python Pocket Reference, written by Mark Lutz, is an easy to use reference "
+"to the core language, with descriptions of commonly used modules and "
+"toolkits. It covers Python 3 and 2.6 versions."
 msgstr ""
+"Python Pocket Reference, écrit par Mark Lutz, est une référence pour le cœur "
+"du langage facile à utiliser, avec les descriptions des modules et des "
+"boîtes à outils utilisés généralement. Il couvre les versions de Python 3 et "
+"2.6."
 
 #: ../../intro/learning.rst:319
 msgid ""
-"`Python Pocket Reference "
-"<http://shop.oreilly.com/product/9780596158095.do>`_"
+"`Python Pocket Reference <http://shop.oreilly.com/product/9780596158095.do>`_"
 msgstr ""
+"`Python Pocket Reference <http://shop.oreilly.com/product/9780596158095.do>`_"
 
 #: ../../intro/learning.rst:322
 msgid "Python Cookbook"
-msgstr ""
+msgstr "Python Cookbook"
 
 #: ../../intro/learning.rst:324
 msgid ""
-"Python Cookbook, written by David Beazley and Brian K. Jones, is packed "
-"with practical recipes. This book covers the core python language as well"
-" as tasks common to a wide variety of application domains."
+"Python Cookbook, written by David Beazley and Brian K. Jones, is packed with "
+"practical recipes. This book covers the core python language as well as "
+"tasks common to a wide variety of application domains."
 msgstr ""
+"Python Cookbook, écrit par David Beazley et Brian K. Jones, est associé à "
+"des exemples pratiques. Ce livre couvre le cœur du langage Python ainsi que "
+"des tâches communes à une grande variété de domaines d'application."
 
 #: ../../intro/learning.rst:328
 msgid "`Python Cookbook <http://shop.oreilly.com/product/0636920027072.do>`_"
-msgstr ""
+msgstr "`Python Cookbook <http://shop.oreilly.com/product/0636920027072.do>`_"
 
 #: ../../intro/learning.rst:331
 msgid "Writing Idiomatic Python"
-msgstr ""
+msgstr "Writing Idiomatic Python (Écrire du Python idiomatique)"
 
 #: ../../intro/learning.rst:333
 msgid ""
 "\"Writing Idiomatic Python\", written by Jeff Knupp, contains the most "
-"common and important Python idioms in a format that maximizes "
-"identification and understanding.  Each idiom is presented as a "
-"recommendation of a way to write some commonly used piece of code, "
-"followed by an explanation of why the idiom is important. It also "
-"contains two code samples for each idiom: the \"Harmful\" way to write it"
-" and the \"Idiomatic\" way."
+"common and important Python idioms in a format that maximizes identification "
+"and understanding.  Each idiom is presented as a recommendation of a way to "
+"write some commonly used piece of code, followed by an explanation of why "
+"the idiom is important. It also contains two code samples for each idiom: "
+"the \"Harmful\" way to write it and the \"Idiomatic\" way."
 msgstr ""
+"\"Writing Idiomatic Python\", écrit par Jeff Knupp, contient les idiomes "
+"Python les plus courants et les plus importants dans un format qui maximise "
+"l'identification et la compréhension.  Chaque idiome est présenté comme une "
+"recommandation sur la façon d'écrire un morceau de code couramment utilisé, "
+"suivi d'une explication du pourquoi cet idiome est important. Il contient "
+"aussi deux exemples de code pour chaque idiome: la manière \"Nocive\" de "
+"l'écrire et la manière \"Idiomatique\"."
 
 #: ../../intro/learning.rst:340
 msgid ""
-"`For Python 2.7.3+ <http://www.amazon.com/Writing-Idiomatic-"
-"Python-2-7-3-Knupp/dp/1482372177/>`_"
+"`For Python 2.7.3+ <http://www.amazon.com/Writing-Idiomatic-Python-2-7-3-"
+"Knupp/dp/1482372177/>`_"
 msgstr ""
+"`Pour Python 2.7.3+ <http://www.amazon.com/Writing-Idiomatic-Python-2-7-3-"
+"Knupp/dp/1482372177/>`_"
 
 #: ../../intro/learning.rst:342
 msgid ""
-"`For Python 3.3+  <http://www.amazon.com/Writing-Idiomatic-Python-Jeff-"
-"Knupp-ebook/dp/B00B5VXMRG/>`_"
+"`For Python 3.3+  <http://www.amazon.com/Writing-Idiomatic-Python-Jeff-Knupp-"
+"ebook/dp/B00B5VXMRG/>`_"
 msgstr ""
-
+"`Pour Python 3.3+  <http://www.amazon.com/Writing-Idiomatic-Python-Jeff-"
+"Knupp-ebook/dp/B00B5VXMRG/>`_"
