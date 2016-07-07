@@ -63,8 +63,8 @@ msgstr "Liste de choses à faire (\"Todo\")"
 msgid ""
 "If you'd like to contribute, there's plenty to do. Here's a short todo_ list."
 msgstr ""
-"Si vous voulez contribuer, il y a plein de choses à faire. Voici un courte "
-"liste de choses à faire"
+"Si vous voulez contribuer, il y a plein de choses à faire. Voici un courte"
+" liste de todo_."
 
 #: ../../../TODO.rst:1
 msgid "Establish \"use this\" vs \"alternatives are....\" recommendations"
