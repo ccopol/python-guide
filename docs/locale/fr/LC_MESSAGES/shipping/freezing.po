@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-03 01:22+0200\n"
-"PO-Revision-Date: 2016-07-08 20:31+0100\n"
+"PO-Revision-Date: 2016-07-08 20:32+0100\n"
 "Last-Translator: Thomas Gratier <thomas.gratier@webgeodatavore.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -155,7 +155,7 @@ msgstr "Eggs"
 
 #: ../../shipping/freezing.rst:46
 msgid "pkg_resources support"
-msgstr "supprot pkg_resources"
+msgstr "support pkg_resources"
 
 #: ../../shipping/freezing.rst:48 ../../shipping/freezing.rst:69
 #: ../../shipping/freezing.rst:174
