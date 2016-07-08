@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-03 01:22+0200\n"
-"PO-Revision-Date: 2016-07-08 13:22+0100\n"
+"PO-Revision-Date: 2016-07-08 13:28+0100\n"
 "Last-Translator: Thomas Gratier <thomas.gratier@webgeodatavore.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -74,7 +74,7 @@ msgstr "Usage basique"
 
 #: ../../dev/virtualenvs.rst:30
 msgid "Create a virtual environment for a project:"
-msgstr "Créez un environnement virtuel pour un projet:"
+msgstr "Créer un environnement virtuel pour un projet:"
 
 #: ../../dev/virtualenvs.rst:37
 msgid ""
