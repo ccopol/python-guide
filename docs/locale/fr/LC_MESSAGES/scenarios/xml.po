@@ -7,77 +7,90 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-03 01:22+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2016-07-09 12:24+0100\n"
+"Last-Translator: Thomas Gratier <thomas.gratier@webgeodatavore.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: fr\n"
 
 #: ../../scenarios/xml.rst:2
 msgid "XML parsing"
-msgstr ""
+msgstr "Parsage XML"
 
 #: ../../scenarios/xml.rst:5
 msgid "untangle"
-msgstr ""
+msgstr "untangle"
 
 #: ../../scenarios/xml.rst:7
 msgid ""
-"`untangle <https://github.com/stchris/untangle>`_ is a simple library "
-"which takes an XML document and returns a Python object which mirrors the"
-" nodes and attributes in its structure."
+"`untangle <https://github.com/stchris/untangle>`_ is a simple library which "
+"takes an XML document and returns a Python object which mirrors the nodes "
+"and attributes in its structure."
 msgstr ""
+"`untangle <https://github.com/stchris/untangle>`_ est une bibliothèque "
+"simple qui prend un document XML et retourne un objet Python qui reflète les "
+"nœuds et les attributs dans sa structure."
 
 #: ../../scenarios/xml.rst:11
 msgid "For example, an XML file like this:"
-msgstr ""
+msgstr "Par exemple, un fichier XML comme ceci:"
 
 #: ../../scenarios/xml.rst:20
 msgid "can be loaded like this:"
-msgstr ""
+msgstr "peut être chargé comme ceci:"
 
 #: ../../scenarios/xml.rst:27
 msgid "and then you can get the child elements name like this:"
-msgstr ""
+msgstr "et ensuite vous pouvez obtenir le nom des éléments fils comme ceci:"
 
 #: ../../scenarios/xml.rst:33
 msgid "untangle also supports loading XML from a string or an URL."
 msgstr ""
+"untangle supporte aussi le chargement de XML depuis une chaîne de caractères "
+"ou une URL."
 
 #: ../../scenarios/xml.rst:36
 msgid "xmltodict"
-msgstr ""
+msgstr "xmltodict"
 
 #: ../../scenarios/xml.rst:38
 msgid ""
 "`xmltodict <http://github.com/martinblech/xmltodict>`_ is another simple "
 "library that aims at making XML feel like working with JSON."
 msgstr ""
+"`xmltodict <http://github.com/martinblech/xmltodict>`_ est une autre "
+"bibliothèque simple qui vise à faire que le XML donne l'impression de "
+"travailler avec JSON"
 
 #: ../../scenarios/xml.rst:41
 msgid "An XML file like this:"
-msgstr ""
+msgstr "Un fichier XML comme ceci:"
 
 #: ../../scenarios/xml.rst:55
 msgid "can be loaded into a Python dict like this:"
-msgstr ""
+msgstr "peut être chargé dans un dictionnaire Python comme ceci:"
 
 #: ../../scenarios/xml.rst:64
 msgid "and then you can access elements, attributes and values like this:"
 msgstr ""
+"et ensuite, vous pouvez accéder aux éléments, attributs et valeurs comme "
+"ceci:"
 
 #: ../../scenarios/xml.rst:73
 msgid ""
-"xmltodict also lets you roundtrip back to XML with the unparse function, "
-"has a streaming mode suitable for handling files that don't fit in memory"
-" and supports namespaces."
+"xmltodict also lets you roundtrip back to XML with the unparse function, has "
+"a streaming mode suitable for handling files that don't fit in memory and "
+"supports namespaces."
 msgstr ""
-
+"xmltodict vous permet aussi des aller-retours au XML avec la fonction "
+"unparse, dispose d'un mode streaming adapté à la manipulation des fichiers "
+"qui ne rentrent pas en mémoire et supporte les espaces de noms."
