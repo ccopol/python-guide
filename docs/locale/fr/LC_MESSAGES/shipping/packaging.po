@@ -61,7 +61,7 @@ msgstr ""
 "cette façon. Si votre code n'est pas packagé sur PyPI, alors il sera plus "
 "difficile pour les autres développeurs de le trouver, et de l'utiliser dans "
 "le cadre de leur processus existant. Ils vont considérer de tels projets "
-"avec avec la suspicion importante qu'il soit mal géré ou abandonné."
+"avec la suspicion importante qu'il soit mal géré ou abandonné."
 
 #: ../../shipping/packaging.rst:22
 msgid ""

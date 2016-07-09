@@ -52,7 +52,7 @@ msgstr ""
 "Quelle fonctions doivent aller dans quels modules? Comment circule la donnée "
 "dans le projet? Quelles fonctionnalités et fonctions peuvent être groupées "
 "ensemble et isolées? En répondant à des questions comme cela, vous pouvez "
-"commencer à planifier, au sens large, ce à quoi votre votre produit fini "
+"commencer à planifier, au sens large, ce à quoi votre produit fini "
 "ressemblera."
 
 #: ../../writing/structure.rst:16

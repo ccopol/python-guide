@@ -35,7 +35,7 @@ msgid ""
 "Guido van Rossum, the creator of Python, is often referred to as the BDFL — "
 "the Benevolent Dictator For Life."
 msgstr ""
-"Guido van Rossum, le créateur de Python, est souvent désigné comme le le "
+"Guido van Rossum, le créateur de Python, est souvent désigné comme le "
 "dictateur bienveillant pour la vie (Benevolent Dictator For Life ou BDFL)."
 
 #: ../../intro/community.rst:15

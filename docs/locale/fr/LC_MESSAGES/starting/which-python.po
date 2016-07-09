@@ -219,7 +219,7 @@ msgid ""
 msgstr ""
 "Si vous écrivez du code Python open-source et que vous voulez toucher une "
 "audience la plus large possible, le ciblage de CPython est le meilleur à "
-"faire. Pour utiliser des paquets qui s'appuient sur sur des extensions C "
+"faire. Pour utiliser des paquets qui s'appuient sur des extensions C "
 "pour fonctionner, CPython est votre seule option de mise en œuvre."
 
 #: ../../starting/which-python.rst:86

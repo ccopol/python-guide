@@ -35,7 +35,7 @@ msgid ""
 "Python is a general-purpose, high-level programming language similar to Tcl, "
 "Perl, Ruby, Scheme, or Java. Some of its main key features include:"
 msgstr ""
-"Python est langage de de programmation généraliste de haut niveau similaire "
+"Python est langage de programmation généraliste de haut niveau similaire "
 "à Tcl, Perl, Ruby, Scheme ou Java. Quelques-unes des principales "
 "fonctionnalités clés incluent:"
 

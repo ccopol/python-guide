@@ -211,7 +211,7 @@ msgid ""
 "some experience programming in another language."
 msgstr ""
 "Dive Into Python 3 est un bon livre pour ceux qui sont prêts à passer à "
-"Python 3. C'est une bonne lecture si vous passer de de Python 2 à 3 ou si "
+"Python 3. C'est une bonne lecture si vous passer de Python 2 à 3 ou si "
 "vous avez déjà un peu d'expérience en programmation dans un autre langage."
 
 #: ../../intro/learning.rst:100

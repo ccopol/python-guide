@@ -108,7 +108,7 @@ msgid ""
 "interpreters"
 msgstr ""
 "Vérifiant que les paquets s'installent correctement avec les différentes "
-"versions de Python et et ses différents interpréteurs"
+"versions de Python et ses différents interpréteurs"
 
 #: ../../scenarios/ci.rst:45
 msgid ""
