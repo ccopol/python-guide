@@ -7,202 +7,270 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-03 01:54+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2016-07-09 18:56+0100\n"
+"Last-Translator: Thomas Gratier <thomas.gratier@webgeodatavore.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: fr\n"
 
 #: ../../scenarios/speed.rst:2
 msgid "Speed"
-msgstr ""
+msgstr "Vitesse"
 
 #: ../../scenarios/speed.rst:4
 msgid ""
-"CPython, the most commonly used implementation of Python, is slow for CPU"
-" bound tasks. `PyPy`_ is fast."
+"CPython, the most commonly used implementation of Python, is slow for CPU "
+"bound tasks. `PyPy`_ is fast."
 msgstr ""
+"CPython, l'implémentation la plus couramment utilisée de Python, est lente "
+"pour les tâches liées au CPU (processeur). `PyPy`_ est rapide."
 
 #: ../../scenarios/speed.rst:7
 msgid ""
-"Using a slightly modified version of `David Beazley's`_ CPU bound test "
-"code (added loop for multiple tests), you can see the difference between "
-"CPython and PyPy's processing."
+"Using a slightly modified version of `David Beazley's`_ CPU bound test code "
+"(added loop for multiple tests), you can see the difference between CPython "
+"and PyPy's processing."
 msgstr ""
+"En utilisant une version légèrement modifiée du code de test lié au CPU de "
+"`David Beazley's`_ (boucle ajoutée pour de multiples tests), vous pouvez "
+"voir la différence entre le traitement CPython et PyPy."
 
 #: ../../scenarios/speed.rst:37
 msgid "Context"
-msgstr ""
+msgstr "Contexte"
 
 #: ../../scenarios/speed.rst:41 ../../scenarios/speed.rst:59
 msgid "The GIL"
-msgstr ""
+msgstr "Le GIL"
 
 #: ../../scenarios/speed.rst:43
 msgid ""
-"`The GIL`_ (Global Interpreter Lock) is how Python allows multiple "
-"threads to operate at the same time. Python's memory management isn't "
-"entirely thread-safe, so the GIL is required to prevent multiple threads "
-"from running the same Python code at once."
+"`The GIL`_ (Global Interpreter Lock) is how Python allows multiple threads "
+"to operate at the same time. Python's memory management isn't entirely "
+"thread-safe, so the GIL is required to prevent multiple threads from running "
+"the same Python code at once."
 msgstr ""
+"`Le GIL`_ (Global Interpreter Lock) est comment Python permet à plusieurs "
+"threads de fonctionner en même temps. La gestion de la mémoire de Python est "
+"pas entièrement thread-safe, de sorte que le GIL est requis pour empêcher "
+"plusieurs threads d'exécuter le même code Python à la fois."
 
 #: ../../scenarios/speed.rst:48
 msgid ""
-"David Beazley has a great `guide`_ on how the GIL operates. He also "
-"covers the `new GIL`_ in Python 3.2. His results show that maximizing "
-"performance in a Python application requires a strong understanding of "
-"the GIL, how it affects your specific application, how many cores you "
-"have, and where your application bottlenecks are."
+"David Beazley has a great `guide`_ on how the GIL operates. He also covers "
+"the `new GIL`_ in Python 3.2. His results show that maximizing performance "
+"in a Python application requires a strong understanding of the GIL, how it "
+"affects your specific application, how many cores you have, and where your "
+"application bottlenecks are."
 msgstr ""
+"David Beazley a un bon `guide`_ sur la manière dont le GIL opère. I lcouvre "
+"aussi le `new GIL`_ dans Python 3.2. Ses résultats montrent que maximiser "
+"les performances dans une application Python nécessite une bonne "
+"compréhension de la GIL, comment il affecte votre application spécifique, "
+"combien de cœurs que vous avez, et où sont vos goulots d'étranglement dans "
+"l'application."
 
 #: ../../scenarios/speed.rst:55 ../../scenarios/speed.rst:65
 msgid "C Extensions"
-msgstr ""
+msgstr "Extensions C"
 
 #: ../../scenarios/speed.rst:61
 msgid ""
 "`Special care`_ must be taken when writing C extensions to make sure you "
 "register your threads with the interpreter."
 msgstr ""
+"Une `Special care`_ doit être prise lors de l'écriture d'extensions C pour "
+"vous assurer que vous enregistrez vos threads avec l'interpréteur."
 
 #: ../../scenarios/speed.rst:69
 msgid "Cython"
-msgstr ""
+msgstr "Cython"
 
 #: ../../scenarios/speed.rst:71
 msgid ""
-"`Cython <http://cython.org/>`_ implements a superset of the Python "
-"language with which you are able to write C and C++ modules for Python. "
-"Cython also allows you to call functions from compiled C libraries. Using"
-" Cython allows you to take advantage of Python's strong typing of "
-"variables and operations."
+"`Cython <http://cython.org/>`_ implements a superset of the Python language "
+"with which you are able to write C and C++ modules for Python. Cython also "
+"allows you to call functions from compiled C libraries. Using Cython allows "
+"you to take advantage of Python's strong typing of variables and operations."
 msgstr ""
+"`Cython <http://cython.org/>`_ implémente un sur-ensemble du langage Python "
+"avec lequel vous êtes en mesure d'écrire des modules C et C ++ pour Python. "
+"Cython vous permet également d'appeler des fonctions depuis des "
+"bibliothèques compilées C. Utiliser Cython vous permet de tirer avantage du "
+"typage fort des variables Python et des opérations."
 
 #: ../../scenarios/speed.rst:76
 msgid "Here's an example of strong typing with Cython:"
-msgstr ""
+msgstr "Voici un exemple de typage fort avec Cython:"
 
 #: ../../scenarios/speed.rst:103
 msgid ""
 "This implementation of an algorithm to find prime numbers has some "
-"additional keywords compared to the next one, which is implemented in "
-"pure Python:"
+"additional keywords compared to the next one, which is implemented in pure "
+"Python:"
 msgstr ""
+"L'implémentation d'un algorithme pour trouver des nombres premiers a "
+"quelques mots-clés supplémentaires par rapport à la suivante, qui est "
+"implémentée en pur Python:"
 
 #: ../../scenarios/speed.rst:128
 msgid ""
-"Notice that in the Cython version you declare integers and integer arrays"
-" to be compiled into C types while also creating a Python list:"
+"Notice that in the Cython version you declare integers and integer arrays to "
+"be compiled into C types while also creating a Python list:"
 msgstr ""
+"Notez que dans la version Cython, vous déclarez les entiers et les tableaux "
+"d'entiers qui seront compilés en types C, tout en créant aussi une liste "
+"Python:"
 
 #: ../../scenarios/speed.rst:151
 msgid ""
 "What is the difference? In the upper Cython version you can see the "
-"declaration of the variable types and the integer array in a similar way "
-"as in standard C. For example `cdef int n,k,i` in line 3. This additional"
-" type declaration (i.e. integer) allows the Cython compiler to generate "
-"more efficient C code from the second version. While standard Python code"
-" is saved in :file:`*.py` files, Cython code is saved in :file:`*.pyx` "
-"files."
+"declaration of the variable types and the integer array in a similar way as "
+"in standard C. For example `cdef int n,k,i` in line 3. This additional type "
+"declaration (i.e. integer) allows the Cython compiler to generate more "
+"efficient C code from the second version. While standard Python code is "
+"saved in :file:`*.py` files, Cython code is saved in :file:`*.pyx` files."
 msgstr ""
+"Quelle est la différence? Dans la version Cython ci-dessus, vous pouvez voir "
+"la déclaration des types de variables et le tableau entier d'une manière "
+"similaire à celle du standard C. Par exemple `cdef int n,k,i` dans la ligne "
+"3. Cette déclaration de type supplémentaire (c'est à dire entier) permet au "
+"compilateur Cython de générer du code C plus efficace à partir de la "
+"deuxième version. Alors que le code standard de Python est sauvé dans des "
+"fichiers :file:`*.py`, le code Cython est sauvé dans des fichiers :file:`*."
+"pyx`."
 
 #: ../../scenarios/speed.rst:158
 msgid "What's the difference in speed? Let's try it!"
-msgstr ""
+msgstr "Quelle est la différence de vitesse? Essayons!"
 
 #: ../../scenarios/speed.rst:184
 msgid "These lines both need a remark:"
-msgstr ""
+msgstr "Ces deux lignes nécessitent une remarque:"
 
 #: ../../scenarios/speed.rst:192
 msgid ""
-"The `pyximport` module allows you to import :file:`*.pyx` files (e.g., "
-":file:`primesCy.pyx`) with the Cython-compiled version of the `primes` "
-"function. The `pyximport.install()` command allows the Python interpreter"
-" to start the Cython compiler directly to generate C-code, which is "
-"automatically compiled to a :file:`*.so` C-library. Cython is then able "
-"to import this library for you in your Python code, easily and "
-"efficiently. With the `time.time()` function you are able to compare the "
-"time between these 2 different calls to find 500 prime numbers. On a "
-"standard notebook (dual core AMD E-450 1.6 GHz), the measured values are:"
+"The `pyximport` module allows you to import :file:`*.pyx` files (e.g., :file:"
+"`primesCy.pyx`) with the Cython-compiled version of the `primes` function. "
+"The `pyximport.install()` command allows the Python interpreter to start the "
+"Cython compiler directly to generate C-code, which is automatically compiled "
+"to a :file:`*.so` C-library. Cython is then able to import this library for "
+"you in your Python code, easily and efficiently. With the `time.time()` "
+"function you are able to compare the time between these 2 different calls to "
+"find 500 prime numbers. On a standard notebook (dual core AMD E-450 1.6 "
+"GHz), the measured values are:"
 msgstr ""
+"Le module `pyximport` vous permet d'importer les fichiers :file:`*.pyx` (par "
+"exemple, :file:`primesCy.pyx`) avec la version compilée par Cython de la "
+"fonction `primes`. La commande `pyximport.install()`permet à l'interpréteur "
+"Python de démarrer directement le compilateur Cython pour générer le code C, "
+"qui est automatiquement compilé en une bibliothèque C :file:`*.so`. Cython "
+"est alors capable d'importer cette bibliothèque pour vous dans votre code "
+"Python, facilement et efficacement. Avec la fonction `time.time()`, vous "
+"êtes en mesure de comparer le temps entre ces 2 différents appels pour "
+"trouver 500 nombres premiers. Sur un ordinateur portable standard (dual core "
+"AMD E-450 1,6 GHz), les valeurs mesurées sont:"
 
 #: ../../scenarios/speed.rst:209
 msgid ""
-"And here the output of an embedded `ARM beaglebone "
-"<http://beagleboard.org/Products/BeagleBone>`_ machine:"
+"And here the output of an embedded `ARM beaglebone <http://beagleboard.org/"
+"Products/BeagleBone>`_ machine:"
 msgstr ""
+"Et voici la sortie sur une machine `ARM beaglebone <http://beagleboard.org/"
+"Products/BeagleBone>`_ intégreé:"
 
 #: ../../scenarios/speed.rst:219
 msgid "Pyrex"
-msgstr ""
+msgstr "Pyrex"
 
 #: ../../scenarios/speed.rst:223
 msgid "Shedskin?"
-msgstr ""
+msgstr "Shedskin?"
 
 #: ../../scenarios/speed.rst:226
 msgid "Numba"
-msgstr ""
+msgstr "Numba"
 
 #: ../../scenarios/speed.rst
 msgid "À faire"
-msgstr ""
+msgstr "À faire"
 
 #: ../../scenarios/speed.rst:227
 msgid "Write about Numba and the autojit compiler for NumPy"
-msgstr ""
+msgstr "Écrire à propos de Numba et du compilateur autojit pour NumPy"
 
 #: ../../scenarios/speed.rst:230
 msgid "Concurrency"
-msgstr ""
+msgstr "Concurrence"
 
 #: ../../scenarios/speed.rst:234
 msgid "Concurrent.futures"
-msgstr ""
+msgstr "Concurrent.futures"
 
 #: ../../scenarios/speed.rst:236
 msgid ""
-"The `concurrent.futures`_ module is a module in the standard library that"
-" provides a \"high-level interface for asynchronously executing "
-"callables\". It abstracts away a lot of the more complicated details "
-"about using multiple threads or processes for concurrency, and allows the"
-" user to focus on accomplishing the task at hand."
+"The `concurrent.futures`_ module is a module in the standard library that "
+"provides a \"high-level interface for asynchronously executing callables\". "
+"It abstracts away a lot of the more complicated details about using multiple "
+"threads or processes for concurrency, and allows the user to focus on "
+"accomplishing the task at hand."
 msgstr ""
+"Le module `concurrent.futures`_ est un module dans la bibliothèque standard "
+"qui fournit une \"interface de haut-niveau pour exécuter des callables de "
+"manière asynchrone\". Il abstrait une grande partie des détails les plus "
+"compliqués sur l'utilisation de plusieurs threads ou processus pour la "
+"concurrence, et permet à l'utilisateur de se concentrer sur "
+"l'accomplissement de la tâche à accomplir."
 
 #: ../../scenarios/speed.rst:242
 msgid ""
 "The `concurrent.futures`_ module exposes two main classes, the "
-"`ThreadPoolExecutor` and the `ProcessPoolExecutor`. The "
-"ThreadPoolExecutor will create a pool of worker threads that a user can "
-"submit jobs to. These jobs will then be executed in another thread when "
-"the next worker thread becomes available."
+"`ThreadPoolExecutor` and the `ProcessPoolExecutor`. The ThreadPoolExecutor "
+"will create a pool of worker threads that a user can submit jobs to. These "
+"jobs will then be executed in another thread when the next worker thread "
+"becomes available."
 msgstr ""
+"Le module `concurrent.futures`_ expose deux classes principales, "
+"`ThreadPoolExecutor` et `ProcessPoolExecutor`. Le ThreadPoolExecutor va "
+"créer un pool de worker threads auquel un utilisateur peut soumettre des "
+"jobs à faire. Ces jobs seront ensuite exécutés dans un autre thread quand le "
+"prochain worker thread va devenir disponible."
 
 #: ../../scenarios/speed.rst:248
 msgid ""
 "The ProcessPoolExecutor works in the same way, except instead of using "
-"multiple threads for its workers, it will use multiple processes. This "
-"makes it possible to side-step the GIL, however because of the way things"
-" are passed to worker processes, only picklable objects can be executed "
-"and returned."
+"multiple threads for its workers, it will use multiple processes. This makes "
+"it possible to side-step the GIL, however because of the way things are "
+"passed to worker processes, only picklable objects can be executed and "
+"returned."
 msgstr ""
+"Le ProcessPoolExecutor fonctionne de la même manière, sauf au lieu "
+"d'utiliser plusieurs threads pour ses workers, elle utilisera de multiples "
+"processus. Cela permet de mettre de côté le GIL, cependant à cause de la "
+"façon dont les choses sont passées à des processus workers, seuls les objets "
+"picklables peuvent être exécutés et retournés."
 
 #: ../../scenarios/speed.rst:253
 msgid ""
 "Because of the way the GIL works, a good rule of thumb is to use a "
-"ThreadPoolExecutor when the task being executed involves a lot of "
-"blocking (i.e. making requests over the network) and to use a "
-"ProcessPoolExecutor executor when the task is computationally expensive."
+"ThreadPoolExecutor when the task being executed involves a lot of blocking "
+"(i.e. making requests over the network) and to use a ProcessPoolExecutor "
+"executor when the task is computationally expensive."
 msgstr ""
+"En raison de la manière dont le GIL fonctionne, une bonne règle de base est "
+"d'utiliser une ThreadPoolExecutor lorsque la tâche en cours d'exécution "
+"implique beaucoup de blocage (à savoir faire des requêtes sur le réseau) et "
+"d'utiliser un exécuteur ProcessPoolExecutor lorsque la tâche est "
+"informatiquement coûteuse."
 
 #: ../../scenarios/speed.rst:258
 msgid ""
@@ -211,175 +279,211 @@ msgid ""
 "almost exactly like the builtin `map()` function, except it will execute "
 "everything in parallel. :"
 msgstr ""
+"Il existe deux principales manières d'exécuter des choses en parallèle en "
+"utilisant les deux exécuteurs. Une façon est avec la méthode `map(func, "
+"iterables)`. Cela fonctionne presque exactement comme la fonction intégrée "
+"`map()`, sauf qu'il exécutera tout en parallèle. :"
 
 #: ../../scenarios/speed.rst:280
 msgid ""
 "For even more control, the `submit(func, *args, **kwargs)` method will "
-"schedule a callable to be executed ( as `func(*args, **kwargs)`) and "
-"returns a `Future`_ object that represents the execution of the callable."
+"schedule a callable to be executed ( as `func(*args, **kwargs)`) and returns "
+"a `Future`_ object that represents the execution of the callable."
 msgstr ""
+"Pour encore plus de contrôle, la méthode `submit(func, *args, **kwargs)` "
+"programmera qu'un callable soit exécuté ( comme `func(*args, **kwargs)`) et "
+"retourne un objet `Future`_ qui représente l'exécution du callable."
 
 #: ../../scenarios/speed.rst:284
 msgid ""
-"The Future object provides various methods that can be used to check on "
-"the progress of the scheduled callable. These include:"
+"The Future object provides various methods that can be used to check on the "
+"progress of the scheduled callable. These include:"
 msgstr ""
+"L'objet Future fournit diverses méthodes qui peuvent être utilisées pour "
+"vérifier l'état d'avancement du callable programmé. Cela inclut:"
 
 #: ../../scenarios/speed.rst:287
 msgid "cancel()"
-msgstr ""
+msgstr "cancel()"
 
 #: ../../scenarios/speed.rst:288
 msgid "Attempt to cancel the call."
-msgstr ""
+msgstr "Tentative d'annulation de l'appel."
 
 #: ../../scenarios/speed.rst:289
 msgid "cancelled()"
-msgstr ""
+msgstr "cancelled()"
 
 #: ../../scenarios/speed.rst:290
 msgid "Return True if the call was successfully cancelled."
-msgstr ""
+msgstr "Retourne True si l'appel a été annulé avec succès."
 
 #: ../../scenarios/speed.rst:292
 msgid "running()"
-msgstr ""
+msgstr "running()"
 
 #: ../../scenarios/speed.rst:292
 msgid ""
-"Return True if the call is currently being executed and cannot be "
-"cancelled."
+"Return True if the call is currently being executed and cannot be cancelled."
 msgstr ""
+"Retourne True si l'appel a été exécuté à ce moment et ne peut pas annulé."
 
 #: ../../scenarios/speed.rst:294
 msgid "done()"
-msgstr ""
+msgstr "done()"
 
 #: ../../scenarios/speed.rst:295
 msgid "Return True if the call was successfully cancelled or finished running."
 msgstr ""
+"Retourne True si l'appel a été annulé avec succès ou a fini de s'exécuter."
 
 #: ../../scenarios/speed.rst:297
 msgid "result()"
-msgstr ""
+msgstr "result()"
 
 #: ../../scenarios/speed.rst:297
 msgid ""
-"Return the value returned by the call. Note that this call will block "
-"until the scheduled callable returns by default."
+"Return the value returned by the call. Note that this call will block until "
+"the scheduled callable returns by default."
 msgstr ""
+"Retourne la valeur retournée par l'appel. Notez que cet appel sera bloquant "
+"jusqu'à le callable programmé soit retourné par défaut."
 
 #: ../../scenarios/speed.rst:300
 msgid "exception()"
-msgstr ""
+msgstr "exception()"
 
 #: ../../scenarios/speed.rst:300
 msgid ""
 "Return the exception raised by the call. If no exception was raised then "
 "this returns `None`. Note that this will block just like `result()`."
 msgstr ""
+"Retourne l'exception levée par l'appel. Si aucune exception n'a été levée "
+"alors cela retourne `None`. Notez que cela va bloquer tout comme `result()`."
 
 #: ../../scenarios/speed.rst:305
 msgid "add_done_callback(fn)"
-msgstr ""
+msgstr "add_done_callback(fn)"
 
 #: ../../scenarios/speed.rst:303
 msgid ""
-"Attach a callback function that will be executed (as `fn(future)`) when "
-"the scheduled callable returns."
+"Attach a callback function that will be executed (as `fn(future)`) when the "
+"scheduled callable returns."
 msgstr ""
+"Attache une fonction de callback qui sera exécutée (comme `fn(future)`) "
+"quand le callable prévu sera retourné."
 
 #: ../../scenarios/speed.rst:344
 msgid ""
-"The `concurrent.futures`_ module contains two helper functions for "
-"working with Futures. The `as_completed(futures)` function returns an "
-"iterator over the list of futures, yielding the futures as they complete."
+"The `concurrent.futures`_ module contains two helper functions for working "
+"with Futures. The `as_completed(futures)` function returns an iterator over "
+"the list of futures, yielding the futures as they complete."
 msgstr ""
+"Le module `concurrent.futures`_ contient deux helpers pour travailler avec "
+"Futures. La fonction `as_completed(futures)` retourne un itérateur sur la "
+"liste des futures, en faisant un yield des futures jusqu'à ce qu'elles "
+"soient complètes."
 
 #: ../../scenarios/speed.rst:348
 msgid ""
-"The `wait(futures)` function will simply block until all futures in the "
-"list of futures provided have completed."
+"The `wait(futures)` function will simply block until all futures in the list "
+"of futures provided have completed."
 msgstr ""
+"La fonction `wait(futures)` va tout simplement bloquer jusqu'à ce que toutes "
+"les futures dans la liste des futures soient terminées."
 
 #: ../../scenarios/speed.rst:351
 msgid ""
-"For more information, on using the `concurrent.futures`_ module, consult "
-"the official documentation."
+"For more information, on using the `concurrent.futures`_ module, consult the "
+"official documentation."
 msgstr ""
+"Pour plus d'informations, sur l'utilisation du module `concurrent.futures`_, "
+"consulter la documentation officielle."
 
 #: ../../scenarios/speed.rst:355
 msgid "Threading"
-msgstr ""
+msgstr "Threading"
 
 #: ../../scenarios/speed.rst:357
 msgid ""
-"The standard library comes with a `threading`_ module that allows a user "
-"to work with multiple threads manually."
+"The standard library comes with a `threading`_ module that allows a user to "
+"work with multiple threads manually."
 msgstr ""
+"La bibliothèque standard est livré avec un module `threading`_ qui permet à "
+"un utilisateur de travailler avec plusieurs threads manuellement."
 
 #: ../../scenarios/speed.rst:360
 msgid ""
-"Running a function in another thread is as simple as passing a callable "
-"and it's arguments to `Thread`'s constructor and then calling `start()`:"
+"Running a function in another thread is as simple as passing a callable and "
+"it's arguments to `Thread`'s constructor and then calling `start()`:"
 msgstr ""
+"Exécuter une fonction dans un autre thread est aussi simple que de passer un "
+"callable et ses arguments constructeur du `Thread' et d'appeler ensuite "
+"`start()`:"
 
 #: ../../scenarios/speed.rst:375
 msgid "To wait until the thread has terminated, call `join()`:"
-msgstr ""
+msgstr "Pour attendre jusqu'à ce que le thread soit terminé, appelez `join()`:"
 
 #: ../../scenarios/speed.rst:381
 msgid ""
-"After calling `join()`, it is always a good idea to check whether the "
-"thread is still alive (because the join call timed out):"
+"After calling `join()`, it is always a good idea to check whether the thread "
+"is still alive (because the join call timed out):"
 msgstr ""
+"Après l'appel du `join()`, c'est toujours une bonne idée de vérifier si le "
+"thread est toujours en vie (parce que l'appel join a expiré):"
 
 #: ../../scenarios/speed.rst:391
 msgid ""
 "Because multiple threads have access to the same section of memory, "
-"sometimes there might be situations where two or more threads are trying "
-"to write to the same resource at the same time or where the output is "
-"dependent on the sequence or timing of certain events. This is called a "
-"`data race`_ or race condition. When this happens, the output will be "
-"garbled or you may encounter problems which are difficult to debug. A "
-"good example is this `stackoverflow post`_."
+"sometimes there might be situations where two or more threads are trying to "
+"write to the same resource at the same time or where the output is dependent "
+"on the sequence or timing of certain events. This is called a `data race`_ "
+"or race condition. When this happens, the output will be garbled or you may "
+"encounter problems which are difficult to debug. A good example is this "
+"`stackoverflow post`_."
 msgstr ""
+"Parce que plusieurs threads ont accès à la même section de la mémoire, "
+"parfois il peut y avoir des situations où deux ou plusieurs threads tentent "
+"d'écrire sur la même ressource en même temps ou lorsque la sortie est "
+"dépendante de la séquence ou du timing de certains événements. Ceci est "
+"appelé une `data race`_ ou \"race condition\". Lorsque cela se produit, la "
+"sortie sera dénaturée ou vous pouvez rencontrer des problèmes qui sont "
+"difficiles à débuguer. Un bon exemple est ce `stackoverflow post`_."
 
 #: ../../scenarios/speed.rst:398
 msgid ""
-"The way this can be avoided is by using a `Lock`_ that each thread needs "
-"to acquire before writing to a shared resource. Locks can be acquired and"
-" released through either the contextmanager protocol (`with` statement), "
-"or by using `acquire()` and `release()` directly. Here is a (rather "
-"contrived) example:"
+"The way this can be avoided is by using a `Lock`_ that each thread needs to "
+"acquire before writing to a shared resource. Locks can be acquired and "
+"released through either the contextmanager protocol (`with` statement), or "
+"by using `acquire()` and `release()` directly. Here is a (rather contrived) "
+"example:"
 msgstr ""
+"La façon dont cela peut être évité est d'utiliser un `Lock`_ que chaque "
+"thread aura besoin d'acquérir avant d'écrire dans une ressource partagée. "
+"Les locks peuvent être acquis et libérés soit par le protocole de "
+"contextmanager (`déclaration with`), ou en utilisant `acquire()` et "
+"`release()` directement. Voici un exemple (plutôt artificiel):"
 
 #: ../../scenarios/speed.rst:430
 msgid ""
-"Here, we have a bunch of threads checking for changes on a list of sites "
-"and whenever there are any changes, they attempt to write those changes "
-"to a file by calling `log(changes)`. When `log()` is called, it will wait"
-" to acquire the lock with `with file_lock:`. This ensures that at any one"
-" time, only one thread is writing to the file."
+"Here, we have a bunch of threads checking for changes on a list of sites and "
+"whenever there are any changes, they attempt to write those changes to a "
+"file by calling `log(changes)`. When `log()` is called, it will wait to "
+"acquire the lock with `with file_lock:`. This ensures that at any one time, "
+"only one thread is writing to the file."
 msgstr ""
+"Ici, nous avons un tas de threads vérifiant des changements sur une liste de "
+"sites et chaque fois qu'il y a des changements, ils tentent d'écrire ces "
+"modifications dans un fichier en appelant `log(changes)`. Lorsque `log()` "
+"est appelé, il attendra d'acquérir le lock avec `avec file_lock:`. Cela "
+"garantit qu'à tout moment, seulement un seul thread est en train d'écrire "
+"dans le fichier."
 
 #: ../../scenarios/speed.rst:437
 msgid "Spawning Processes"
-msgstr ""
+msgstr "Processus de spawning"
 
 #: ../../scenarios/speed.rst:441
 msgid "Multiprocessing"
-msgstr ""
-
-#~ msgid ""
-#~ "The way this can be avoided is "
-#~ "by using a `Lock` that each thread"
-#~ " needs to acquire before writing to"
-#~ " a shared resource. Locks can be "
-#~ "acquired and released through either the"
-#~ " contextmanager protocol (`with` statement), "
-#~ "or by using `acquire()` and `release()`"
-#~ " directly. Here is a (rather "
-#~ "contrived) example:"
-#~ msgstr ""
-
+msgstr "Multiprocessing"
