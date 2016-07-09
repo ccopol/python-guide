@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-03 01:22+0200\n"
-"PO-Revision-Date: 2016-07-08 22:57+0100\n"
+"PO-Revision-Date: 2016-07-09 09:05+0100\n"
 "Last-Translator: Thomas Gratier <thomas.gratier@webgeodatavore.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -160,9 +160,8 @@ msgid ""
 "For example, if you want to install a package called :file:`MyPackage.tar."
 "gz`, and assuming this is your directory structure:"
 msgstr ""
-"Par exemple, si vous souhaitez installer un paquet appelé :file:"
-"`VotrePackage.tar.gz`, et en supposant que c'est votre structure de "
-"répertoire:"
+"Par exemple, si vous souhaitez installer un paquet appelé :file:`MyPackage."
+"tar.gz`, et en supposant que c'est votre structure de répertoire:"
 
 #: ../../shipping/packaging.rst:72
 msgid "archive"
@@ -170,11 +169,11 @@ msgstr "archive"
 
 #: ../../shipping/packaging.rst:72
 msgid "MyPackage"
-msgstr "VotrePackage"
+msgstr "MyPackage"
 
 #: ../../shipping/packaging.rst:72
 msgid "MyPackage.tar.gz"
-msgstr "VotrePackage.tar.gz"
+msgstr "MyPackage.tar.gz"
 
 #: ../../shipping/packaging.rst:74
 msgid "Go to your command prompt and type:"
@@ -187,9 +186,9 @@ msgid ""
 "Python package installer. Using Pip, you would do it like:"
 msgstr ""
 "Cela exécute un simple serveur http, fonctionnant sur le port 9000 et "
-"listera tous les paquets (comme **VotrePackage**). Maintenant, vous pouvez "
-"installer **VotrePackage** en utilisant n'importe quel installateur de "
-"paquets Python. En utilisant Pip, vous devriez le faire avec:"
+"listera tous les paquets (comme **MyPackage**). Maintenant, vous pouvez "
+"installer **MyPackage** en utilisant n'importe quel installateur de paquets "
+"Python. En utilisant Pip, vous devriez le faire avec:"
 
 #: ../../shipping/packaging.rst:89
 msgid ""
@@ -200,9 +199,9 @@ msgid ""
 msgstr ""
 "Avoir un dossier avec le même nom que le nom du package est **cruciale** "
 "ici. J'ai été trompé par cela, une seule fois. Mais si vous avez "
-"l'impression que créer un dossier appelé :file:`VotrePackage` et garder un "
-"fichier :file:`VotrePackage.tar.gz` dedans est *redondant*, vous pouvez "
-"toujours installer VotrePackage en utilisant:"
+"l'impression que créer un dossier appelé :file:`MyPackage` et garder un "
+"fichier :file:`MyPackage.tar.gz` dedans est *redondant*, vous pouvez "
+"toujours installer MyPackage en utilisant:"
 
 #: ../../shipping/packaging.rst:99
 msgid "pypiserver"
@@ -257,7 +256,7 @@ msgid ""
 ":code:`pip2tgz packages/ YourPackage` (or :code:`pip2tgz packages/ -r "
 "requirements.txt`)"
 msgstr ""
-":code:`pip2tgz packages/ VotrePackage` (ou :code:`pip2tgz packages/ -r "
+":code:`pip2tgz packages/ MyPackage` (ou :code:`pip2tgz packages/ -r "
 "requirements.txt`)"
 
 #: ../../shipping/packaging.rst:122
@@ -322,7 +321,7 @@ msgid ""
 "your-s3-bucket/packages/simple/ YourPackage`"
 msgstr ""
 "Vous pouvez maintenant installer votre paquet avec :code:`pip install --"
-"index-url=http://your-s3-bucket/packages/simple/ VotrePackage`"
+"index-url=http://your-s3-bucket/packages/simple/ MyPackage`"
 
 #: ../../shipping/packaging.rst:142
 msgid "For Linux Distributions"
