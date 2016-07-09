@@ -7,23 +7,24 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-03 01:22+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2016-07-09 11:55+0100\n"
+"Last-Translator: Thomas Gratier <thomas.gratier@webgeodatavore.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: fr\n"
 
 #: ../../scenarios/crypto.rst:2 ../../scenarios/crypto.rst:5
 msgid "Cryptography"
-msgstr ""
+msgstr "Cryptography"
 
 #: ../../scenarios/crypto.rst:7
 msgid ""
@@ -31,35 +32,44 @@ msgid ""
 "developed library that provides cryptographic recipes and primitives. It "
 "supports Python 2.6-2.7, Python 3.3+ and PyPy."
 msgstr ""
+"`Cryptography <https://cryptography.io/en/latest/>`_ est une bibliothèque "
+"développée activement qui fournit des recettes et des primitives "
+"cryptographiques. Elle supporte Python 2,6-2,7, Python 3.3+ et PyPy."
 
 #: ../../scenarios/crypto.rst:12
 msgid ""
-"Cryptography is divided into two layers of recipes and hazardous "
-"materials (hazmat).  The recipes layer provides simple API for proper "
-"symmetric encryption and the hazmat layer provides low-level "
-"cryptographic primitives."
+"Cryptography is divided into two layers of recipes and hazardous materials "
+"(hazmat).  The recipes layer provides simple API for proper symmetric "
+"encryption and the hazmat layer provides low-level cryptographic primitives."
 msgstr ""
+"Cryptography est divisé en deux couches: recettes et matières dangereuses "
+"(\"hazardous material\" ou hazmat). La couche de recettes fournit une API "
+"simple pour un chiffrement symétrique correct et la couche hazmat fournit "
+"des primitives cryptographiques de bas niveau."
 
 #: ../../scenarios/crypto.rst:19 ../../scenarios/crypto.rst:49
 msgid "Installation"
-msgstr ""
+msgstr "Installation"
 
 #: ../../scenarios/crypto.rst:26 ../../scenarios/crypto.rst:56
 msgid "Example"
-msgstr ""
+msgstr "Exemple"
 
 #: ../../scenarios/crypto.rst:28
 msgid "Example code using high level symmetric encryption recipe:"
 msgstr ""
+"Code exemple utilisant la recette de chiffrement symétrique de haut niveau:"
 
 #: ../../scenarios/crypto.rst:42
 msgid "PyCrypto"
-msgstr ""
+msgstr "PyCrypto"
 
 #: ../../scenarios/crypto.rst:44
 msgid ""
-"`PyCrypto <https://www.dlitz.net/software/pycrypto/>`_ is another "
-"library, which provides secure hash functions and various encryption "
-"algorithms. It supports Python version 2.1 through 3.3."
+"`PyCrypto <https://www.dlitz.net/software/pycrypto/>`_ is another library, "
+"which provides secure hash functions and various encryption algorithms. It "
+"supports Python version 2.1 through 3.3."
 msgstr ""
-
+"`PyCrypto <https://www.dlitz.net/software/pycrypto/>`_ est une autre "
+"bibliothèque, qui fournit des fonctions de hash sécurisées et différents "
+"algorithmes de chiffrement. Elle supporte Python version 2.1 à 3.3."
