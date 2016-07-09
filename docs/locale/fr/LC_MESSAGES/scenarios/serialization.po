@@ -7,59 +7,70 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-03 01:22+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2016-07-09 12:36+0100\n"
+"Last-Translator: Thomas Gratier <thomas.gratier@webgeodatavore.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: fr\n"
 
 #: ../../scenarios/serialization.rst:3
 msgid "Data Serialization"
-msgstr ""
+msgstr "Sérialisation de données"
 
 #: ../../scenarios/serialization.rst:6
 msgid "What is data serialization?"
-msgstr ""
+msgstr "Qu'est ce que la sérialisation de données?"
 
 #: ../../scenarios/serialization.rst:8
 msgid ""
 "Data serialization is the concept of converting structured data into a "
-"format that allows it to be shared or stored in such a way that its "
-"original structure to be recovered. In some cases, the secondary "
-"intention of data serialization is to minimize the size of the serialized"
-" data which then minimizes disk space or bandwidth requirements."
+"format that allows it to be shared or stored in such a way that its original "
+"structure to be recovered. In some cases, the secondary intention of data "
+"serialization is to minimize the size of the serialized data which then "
+"minimizes disk space or bandwidth requirements."
 msgstr ""
+"La sérialisation de données est le concept de conversion de données "
+"structurées dans un format qui lui permet d'être partagé ou stocké de "
+"manière à ce que sa structure d'origine puisse être récupérée. Dans certains "
+"cas, l'intention secondaire de sérialisation de données est de minimiser la "
+"taille des données sérialisé, ce qui minimise alors les exigences d'espace "
+"disque ou de bande passante."
 
 #: ../../scenarios/serialization.rst:15
 msgid "Pickle"
-msgstr ""
+msgstr "Pickle"
 
 #: ../../scenarios/serialization.rst:17
 msgid ""
-"The native data serialization module for Python is called `Pickle "
-"<https://docs.python.org/2/library/pickle.html>`_."
+"The native data serialization module for Python is called `Pickle <https://"
+"docs.python.org/2/library/pickle.html>`_."
 msgstr ""
+"Le module de sérialisation de données natif pour Python s'appelle `Pickle "
+"<https://docs.python.org/2/library/pickle.html>`_."
 
 #: ../../scenarios/serialization.rst:20
 msgid "Here's an example:"
-msgstr ""
+msgstr "Voici un exemple:"
 
 #: ../../scenarios/serialization.rst:36
 msgid "Protobuf"
-msgstr ""
+msgstr "Protobuf"
 
 #: ../../scenarios/serialization.rst:38
 msgid ""
-"If you're looking for a serialization module that has support in multiple"
-" languages, Google's `Protobuf <https://developers.google.com/protocol-"
+"If you're looking for a serialization module that has support in multiple "
+"languages, Google's `Protobuf <https://developers.google.com/protocol-"
 "buffers>`_ library is an option."
 msgstr ""
-
+"Si vous êtes à la recherche d'un module de sérialisation qui supporte "
+"plusieurs langages, la bibliothèque de Google `Protobuf <https://developers."
+"google.com/protocol-buffers>`_ est une option."
