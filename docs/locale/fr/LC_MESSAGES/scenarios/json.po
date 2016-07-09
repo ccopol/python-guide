@@ -7,63 +7,69 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-03 01:22+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2016-07-09 12:05+0100\n"
+"Last-Translator: Thomas Gratier <thomas.gratier@webgeodatavore.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: fr\n"
 
 #: ../../scenarios/json.rst:2
 msgid "JSON"
-msgstr ""
+msgstr "JSON"
 
 #: ../../scenarios/json.rst:4
 msgid ""
-"The `json <https://docs.python.org/2/library/json.html>`_ library can "
-"parse JSON from strings or files. The library parses JSON into a Python "
-"dictionary or list. It can also convert Python dictionaries or lists into"
-" JSON strings."
+"The `json <https://docs.python.org/2/library/json.html>`_ library can parse "
+"JSON from strings or files. The library parses JSON into a Python dictionary "
+"or list. It can also convert Python dictionaries or lists into JSON strings."
 msgstr ""
+"La bibliothèque `json <https://docs.python.org/2/library/json.html>`_ peut "
+"parser un JSON depuis des chaînes de caractères ou des fichiers. La "
+"bibliothèque parse le JSON en un dictionnaire ou une liste Python. Elle peut "
+"également convertir les dictionnaires Python ou des listes en chaînes JSON."
 
 #: ../../scenarios/json.rst:9
 msgid "Parsing JSON"
-msgstr ""
+msgstr "Parsage de JSON"
 
 #: ../../scenarios/json.rst:11
 msgid "Take the following string containing JSON data:"
-msgstr ""
+msgstr "Prenez la chaîne de caractères suivante contenant des données JSON:"
 
 #: ../../scenarios/json.rst:17
 msgid "It can be parsed like this:"
-msgstr ""
+msgstr "Elle peut être parsée comme ceci:"
 
 #: ../../scenarios/json.rst:24
 msgid "and can now be used as a normal dictionary:"
-msgstr ""
+msgstr "et peut maintenant être utilisée comme un dictionnaire normal:"
 
 #: ../../scenarios/json.rst:31
 msgid "You can also convert the following to JSON:"
-msgstr ""
+msgstr "Vous pouvez aussi convertir ce qui suit en JSON:"
 
 #: ../../scenarios/json.rst:46
 msgid "simplejson"
-msgstr ""
+msgstr "simplejson"
 
 #: ../../scenarios/json.rst:48
 msgid ""
 "The JSON library was added to Python in version 2.6. If you're using an "
-"earlier version of Python, the `simplejson "
-"<https://simplejson.readthedocs.org/en/latest/>`_ library is available "
-"via PyPI."
+"earlier version of Python, the `simplejson <https://simplejson.readthedocs."
+"org/en/latest/>`_ library is available via PyPI."
 msgstr ""
+"La bibliothèque JSON a été ajoutée à Python dans la version 2.6. Si vous "
+"utilisez une version antérieure de Python, la bibliothèque `simplejson "
+"<https://simplejson.readthedocs.org/en/latest/>`_ est disponible via PyPI."
 
 #: ../../scenarios/json.rst:53
 msgid ""
@@ -71,16 +77,22 @@ msgid ""
 "developers that use older versions of Python can use the latest features "
 "available in the json lib."
 msgstr ""
+"simplejson imite la bibliothèque standard json. Il est disponible pour que "
+"les développeurs qui utilisent d'anciennes versions de Python puissent "
+"utiliser les dernières fonctionnalités disponibles dans la bibliothèque json."
 
 #: ../../scenarios/json.rst:57
 msgid ""
 "You can start using simplejson when the json library is not available by "
 "importing simplejson under a different name:"
 msgstr ""
+"Vous pouvez commencer à utiliser simplejson lorsque la bibliothèque json "
+"n'est pas disponible par l'importation de simplejson sous un autre nom:"
 
 #: ../../scenarios/json.rst:64
 msgid ""
-"After importing simplejson as json, the above examples will all work as "
-"if you were using the standard json library."
+"After importing simplejson as json, the above examples will all work as if "
+"you were using the standard json library."
 msgstr ""
-
+"Après l'importation de simplejson comme json, les exemples ci-dessus "
+"fonctionneront tous comme si vous utilisiez la bibliothèque json standard."
