@@ -7,83 +7,105 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-03 01:22+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2016-07-10 08:20+0100\n"
+"Last-Translator: Thomas Gratier <thomas.gratier@webgeodatavore.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: fr\n"
 
 #: ../../scenarios/network.rst:2
 msgid "Networking"
-msgstr ""
+msgstr "Réseau"
 
 #: ../../scenarios/network.rst:5
 msgid "Twisted"
-msgstr ""
+msgstr "Twisted"
 
 #: ../../scenarios/network.rst:7
 msgid ""
-"`Twisted <http://twistedmatrix.com/trac/>`_ is an event-driven networking"
-" engine. It can be used to build applications around many different "
-"networking protocols, including http servers and clients, applications "
-"using SMTP, POP3, IMAP or SSH protocols, instant messaging and `much more"
-" <http://twistedmatrix.com/trac/wiki/Documentation>`_."
+"`Twisted <http://twistedmatrix.com/trac/>`_ is an event-driven networking "
+"engine. It can be used to build applications around many different "
+"networking protocols, including http servers and clients, applications using "
+"SMTP, POP3, IMAP or SSH protocols, instant messaging and `much more <http://"
+"twistedmatrix.com/trac/wiki/Documentation>`_."
 msgstr ""
+"`Twisted <http://twistedmatrix.com/trac/>`_ est un moteur réseau piloté par "
+"événement. Il peut être utilisé pour construire des applications autour de "
+"nombreux protocoles réseau différents, incluant les serveurs et les clients "
+"http, les applications utilisant les protocoles SMTP, POP3, IMAP ou SSH, la "
+"messagerie instantanée et `plus encore <http://twistedmatrix.com/trac/wiki/"
+"Documentation>`_."
 
 #: ../../scenarios/network.rst:14
 msgid "PyZMQ"
-msgstr ""
+msgstr "PyZMQ"
 
 #: ../../scenarios/network.rst:16
 msgid ""
-"`PyZMQ <http://zeromq.github.com/pyzmq/>`_ is the Python binding for "
-"`ZeroMQ <http://www.zeromq.org/>`_, which is a high-performance "
-"asynchronous messaging library. One great advantage of ZeroMQ is that it "
-"can be used for message queuing without a message broker. The basic "
-"patterns for this are:"
+"`PyZMQ <http://zeromq.github.com/pyzmq/>`_ is the Python binding for `ZeroMQ "
+"<http://www.zeromq.org/>`_, which is a high-performance asynchronous "
+"messaging library. One great advantage of ZeroMQ is that it can be used for "
+"message queuing without a message broker. The basic patterns for this are:"
 msgstr ""
+"`PyZMQ <http://zeromq.github.com/pyzmq/>`_ est le binding Python pour "
+"`ZeroMQ <http://www.zeromq.org/>`_, qui est une bibliothèque de messagerie "
+"asynchrone haute performance. Un grand avantage de ZeroMQ est qu'il peut "
+"être utilisé pour la gestion de queue de messages sans broker de messages. "
+"Les patterns de base pour cela sont:"
 
 #: ../../scenarios/network.rst:21
 msgid ""
 "request-reply: connects a set of clients to a set of services. This is a "
 "remote procedure call and task distribution pattern."
 msgstr ""
+"request-reply: connecte un jeu de clients à un jeu de services; C'est un "
+"pattern d'appel de procédure à distance et de distribution de tâches"
 
 #: ../../scenarios/network.rst:23
 msgid ""
 "publish-subscribe: connects a set of publishers to a set of subscribers. "
 "This is a data distribution pattern."
 msgstr ""
+"publish-subscribe: connecte un jeu de publicateurs à un jeu d'abonnés. C'est "
+"un pattern de distribution de données."
 
 #: ../../scenarios/network.rst:25
 msgid ""
-"push-pull (or pipeline): connects nodes in a fan-out / fan-in pattern "
-"that can have multiple steps, and loops. This is a parallel task "
-"distribution and collection pattern."
+"push-pull (or pipeline): connects nodes in a fan-out / fan-in pattern that "
+"can have multiple steps, and loops. This is a parallel task distribution and "
+"collection pattern."
 msgstr ""
+"push-pull (ou pipeline): connecte les nœuds suivant un pattern fan-in / fan-"
+"out qui peut avoir plusieurs étapes, et des boucles. C'est un pattern de "
+"répartition et de collecte de tâches en parallèle."
 
 #: ../../scenarios/network.rst:29
 msgid ""
-"For a quick start, read the `ZeroMQ guide "
-"<http://zguide.zeromq.org/page:all>`_."
+"For a quick start, read the `ZeroMQ guide <http://zguide.zeromq.org/page:"
+"all>`_."
 msgstr ""
+"Pour un démarrage rapie, lire le `guide ZeroMQ <http://zguide.zeromq.org/"
+"page:all>`_."
 
 #: ../../scenarios/network.rst:32
 msgid "gevent"
-msgstr ""
+msgstr "gevent"
 
 #: ../../scenarios/network.rst:34
 msgid ""
-"`gevent <http://www.gevent.org/>`_ is a coroutine-based Python networking"
-" library that uses greenlets to provide a high-level synchronous API on "
-"top of the libev event loop."
+"`gevent <http://www.gevent.org/>`_ is a coroutine-based Python networking "
+"library that uses greenlets to provide a high-level synchronous API on top "
+"of the libev event loop."
 msgstr ""
-
+"`gevent <http://www.gevent.org/>`_ est une bibliothèque de réseau de Python "
+"basée sur les coroutines qui utilise greenlets pour fournir une API "
+"synchrone de haut niveau sur le dessus de la boucle d'événement de libev."
