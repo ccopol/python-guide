@@ -7,97 +7,122 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-03 01:22+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2016-07-10 10:53+0100\n"
+"Last-Translator: Thomas Gratier <thomas.gratier@webgeodatavore.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
+"Language: fr\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: ../../scenarios/gui.rst:2
 msgid "GUI Applications"
-msgstr ""
+msgstr "Applications avec interface graphique utilisateur (GUI)"
 
 #: ../../scenarios/gui.rst:4
 msgid "Alphabetical list of GUI Applications."
 msgstr ""
+"Liste alphabétique des applications avec interface graphique utilisateur "
+"(GUI)"
 
 #: ../../scenarios/gui.rst:7
 msgid "Camelot"
-msgstr ""
+msgstr "Camelot"
 
 #: ../../scenarios/gui.rst:8
 msgid ""
-"`Camelot <http://www.python-camelot.com>`_ provides components for "
-"building applications on top of Python, SQLAlchemy and Qt.  It is "
-"inspired by the Django admin interface."
+"`Camelot <http://www.python-camelot.com>`_ provides components for building "
+"applications on top of Python, SQLAlchemy and Qt.  It is inspired by the "
+"Django admin interface."
 msgstr ""
+"`Camelot <http://www.python-camelot.com>`_ fournit des composants pour "
+"construire des applications par dessus Python, SQLAlchemy et Qt. Il est "
+"inspiré par l'interface d'administration de Django."
 
 #: ../../scenarios/gui.rst:12
 msgid ""
-"The main resource for information is the website: http://www.python-"
-"camelot.com and the mailing list https://groups.google.com/forum/#!forum"
-"/project-camelot"
+"The main resource for information is the website: http://www.python-camelot."
+"com and the mailing list https://groups.google.com/forum/#!forum/project-"
+"camelot"
 msgstr ""
+"La ressource principale pour des informations est le site web: http://www."
+"python-camelot.com and the mailing list https://groups.google.com/forum/#!"
+"forum/project-camelot"
 
 #: ../../scenarios/gui.rst:17
 msgid "Cocoa"
-msgstr ""
+msgstr "Cocoa"
 
 #: ../../scenarios/gui.rst:18
 msgid ""
 "The Cocoa framework is only available on OS X. Don't pick this if you're "
 "writing a cross-platform application!"
 msgstr ""
+"Le framework Cocoa est uniquement disponible sur OS X. Ne l'utilisez pas si "
+"vous écrivez une application multi-plateformes."
 
 #: ../../scenarios/gui.rst:21
 msgid "GTk"
-msgstr ""
+msgstr "GTk"
 
 #: ../../scenarios/gui.rst:22
 msgid ""
-"PyGTK provides Python bindings for the GTK+ toolkit. Like the GTK+ "
-"library itself, it is currently licensed under the GNU LGPL. It is worth "
-"noting that PyGTK only currently supports the Gtk-2.X API (NOT Gtk-3.0). "
-"It is currently recommended that PyGTK not be used for new projects and "
-"that existing applications be ported from PyGTK to PyGObject."
+"PyGTK provides Python bindings for the GTK+ toolkit. Like the GTK+ library "
+"itself, it is currently licensed under the GNU LGPL. It is worth noting that "
+"PyGTK only currently supports the Gtk-2.X API (NOT Gtk-3.0). It is currently "
+"recommended that PyGTK not be used for new projects and that existing "
+"applications be ported from PyGTK to PyGObject."
 msgstr ""
+"PyGTK fournit des bindings Python pour la boîte à outils GTK+. Comme la "
+"bibliothèque GTK+ elle-même, il est actuellement sous licence GNU LGPL. Il "
+"est intéressant de noter que PyGTK ne supporte actuellement que l'API Gtk-2."
+"X (PAS Gtk-3.0). Il est actuellement recommandé de ne pas utiliser PyGTK "
+"pour les nouveaux projets et que les applications existantes soient portées "
+"de PyGTK à PyGObject."
 
 #: ../../scenarios/gui.rst:29
 msgid "PyGObject aka (PyGi)"
-msgstr ""
+msgstr "PyGObject connu aussi comme (PyGi)"
 
 #: ../../scenarios/gui.rst:30
 msgid ""
 "`PyGObject <https://wiki.gnome.org/Projects/PyGObject>`_ provides Python "
-"bindings, which gives access to the entire GNOME software platform. It is"
-" fully compatible with GTK+ 3. Here is a tutorial to get started with "
-"`Python GTK+ 3 Tutorial <http://python-"
-"gtk-3-tutorial.readthedocs.org/en/latest/>`_."
+"bindings, which gives access to the entire GNOME software platform. It is "
+"fully compatible with GTK+ 3. Here is a tutorial to get started with `Python "
+"GTK+ 3 Tutorial <http://python-gtk-3-tutorial.readthedocs.org/en/latest/>`_."
 msgstr ""
+"`PyGObject <https://wiki.gnome.org/Projects/PyGObject>`_ fournit des "
+"bindings Python, qui donnent un accès complet à la plate-forme logicielle "
+"GNOME. Il est entièrement compatible avec GTK+ 3. Voici un tutoriel pour "
+"commencer intitulé `Python GTK+ 3 Tutorial <http://python-gtk-3-tutorial."
+"readthedocs.org/en/latest/>`_."
 
 #: ../../scenarios/gui.rst:33
 msgid "`API Reference <http://lazka.github.io/pgi-docs/>`_"
-msgstr ""
+msgstr "`Référence de l'API <http://lazka.github.io/pgi-docs/>`_"
 
 #: ../../scenarios/gui.rst:36
 msgid "Kivy"
-msgstr ""
+msgstr "Kivy"
 
 #: ../../scenarios/gui.rst:37
 msgid ""
-"`Kivy <http://kivy.org>`_ is a Python library for development of multi-"
-"touch enabled media rich applications. The aim is to allow for quick and "
-"easy interaction design and rapid prototyping, while making your code "
-"reusable and deployable."
+"`Kivy <http://kivy.org>`_ is a Python library for development of multi-touch "
+"enabled media rich applications. The aim is to allow for quick and easy "
+"interaction design and rapid prototyping, while making your code reusable "
+"and deployable."
 msgstr ""
+"`Kivy <http://kivy.org>`_ est une bibliothèque Python pour le développement "
+"d'applications riches en média supportant le multi-touch. L'objectif est de "
+"permettre la conception d'interaction rapide et facile et le prototypage "
+"rapide, tout en rendant votre code réutilisable et déployable."
 
 #: ../../scenarios/gui.rst:42
 msgid ""
@@ -105,105 +130,135 @@ msgid ""
 "devices such as: Mouse, Dual Mouse, TUIO, WiiMote, WM_TOUCH, HIDtouch, "
 "Apple's products and so on."
 msgstr ""
+"Kivy est écrit en Python, basé sur OpenGL et supporte les différents "
+"dispositifs d'entrée tels que: souris, la souris double, TUIO, WiiMote, "
+"WM_TOUCH, HIDtouch, les produits d'Apple et ainsi de suite."
 
 #: ../../scenarios/gui.rst:46
 msgid ""
 "Kivy is actively being developed by a community and is free to use. It "
 "operates on all major platforms (Linux, OSX, Windows, Android)."
 msgstr ""
+"Kivy est activement développé par une communauté et est libre à utiliser. Il "
+"fonctionne sur toutes les principales plateformes (Linux, OSX, Windows, "
+"Android)."
 
 #: ../../scenarios/gui.rst:49
 msgid "The main resource for information is the website: http://kivy.org"
 msgstr ""
+"La ressource principale pour des informations est le site web: http://kivy."
+"org"
 
 #: ../../scenarios/gui.rst:52
 msgid "PyObjC"
-msgstr ""
+msgstr "PyObjC"
 
 #: ../../scenarios/gui.rst:53
 msgid ""
-"Only available on OS X. Don't pick this if you're writing a cross-"
-"platform application."
+"Only available on OS X. Don't pick this if you're writing a cross-platform "
+"application."
 msgstr ""
+"Uniquement disponible sur OS X. Ne l'utilisez pas si vous écrivez une "
+"application multi-plateformes."
 
 #: ../../scenarios/gui.rst:56
 msgid "PySide"
-msgstr ""
+msgstr "PySide"
 
 #: ../../scenarios/gui.rst:57
 msgid "PySide is a Python binding of the cross-platform GUI toolkit Qt."
 msgstr ""
+"PySide est un binding Python de la boîte à outils graphique multi-"
+"plateformes Qt."
 
 #: ../../scenarios/gui.rst:59
 msgid "pip install pyside"
-msgstr ""
+msgstr "pip install pyside"
 
 #: ../../scenarios/gui.rst:61
 msgid "https://wiki.qt.io/Category:LanguageBindings::PySide::Downloads"
-msgstr ""
+msgstr "https://wiki.qt.io/Category:LanguageBindings::PySide::Downloads"
 
 #: ../../scenarios/gui.rst:64
 msgid "PyQt"
-msgstr ""
+msgstr "PyQt"
 
 #: ../../scenarios/gui.rst:65
 msgid ""
 "If your software does not fully comply with the GPL you will need a "
 "commercial license!"
 msgstr ""
+"Si votre logiciel ne se conforme pas complètement à la GPL, vous aurez "
+"besoin d'une licence commerciale!"
 
 #: ../../scenarios/gui.rst:67
 msgid "PyQt provides Python bindings for the Qt Framework (see below)."
 msgstr ""
+"PyQt fournit des bindings Python pour le framework Qt (voir ci-dessous)."
 
 #: ../../scenarios/gui.rst:69
 msgid "http://www.riverbankcomputing.co.uk/software/pyqt/download"
-msgstr ""
+msgstr "http://www.riverbankcomputing.co.uk/software/pyqt/download"
 
 #: ../../scenarios/gui.rst:72
 msgid "PyjamasDesktop (pyjs Desktop)"
-msgstr ""
+msgstr "PyjamasDesktop (pyjs Desktop)"
 
 #: ../../scenarios/gui.rst:73
 msgid ""
-"PyjamasDesktop is a port of Pyjamas. PyjamasDesktop is application widget"
-" set for desktop and a cross-platform framework. (After release v0.6 "
-"PyjamasDesktop is a part of Pyjamas (Pyjs)). Briefly, it allows the exact"
-" same Python web application source code to be executed as a standalone "
+"PyjamasDesktop is a port of Pyjamas. PyjamasDesktop is application widget "
+"set for desktop and a cross-platform framework. (After release v0.6 "
+"PyjamasDesktop is a part of Pyjamas (Pyjs)). Briefly, it allows the exact "
+"same Python web application source code to be executed as a standalone "
 "desktop application."
 msgstr ""
+"PyjamasDesktop est un port de Pyjamas. PyjamasDesktop est un jeu de widgets "
+"pour applications prévu pour le bureautique et un framework multi-"
+"plateformes. (Après la mise à disposition de la v0.6, PyjamasDesktop est un "
+"morceau de Pyjamas (Pyjs)). En bref, il permet au même code d'une "
+"application web Python d'être exécuté comme une application de bureau "
+"autonome."
 
 #: ../../scenarios/gui.rst:78
 msgid ""
-"`Python Wiki for PyjamasDesktop "
-"<http://wiki.python.org/moin/PyjamasDesktop>`_."
+"`Python Wiki for PyjamasDesktop <http://wiki.python.org/moin/"
+"PyjamasDesktop>`_."
 msgstr ""
+"`Wiki Python pour PyjamasDesktop <http://wiki.python.org/moin/"
+"PyjamasDesktop>`_."
 
 #: ../../scenarios/gui.rst:80
 msgid "The main website; `pyjs Desktop <http://pyjs.org/>`_."
-msgstr ""
+msgstr "Le site principal; `pyjs Desktop <http://pyjs.org/>`_."
 
 #: ../../scenarios/gui.rst:83
 msgid "Qt"
-msgstr ""
+msgstr "Qt"
 
 #: ../../scenarios/gui.rst:84
 msgid ""
 "`Qt <http://qt-project.org/>`_ is a cross-platform application framework "
-"that is widely used for developing software with a GUI but can also be "
-"used for non-GUI applications."
+"that is widely used for developing software with a GUI but can also be used "
+"for non-GUI applications."
 msgstr ""
+"`Qt <http://qt-project.org/>`_ est un framework multi-plateformes qui est "
+"largement utilisé pour développer de logiciels avec une interface graphique, "
+"mais peut également être utilisé pour des applications sans interface "
+"graphique."
 
 #: ../../scenarios/gui.rst:89
 msgid "Tk"
-msgstr ""
+msgstr "Tk"
 
 #: ../../scenarios/gui.rst:90
 msgid ""
 "Tkinter is a thin object-oriented layer on top of Tcl/Tk. **It has the "
-"advantage of being included with the Python standard library, making it "
-"the most convenient and compatible toolkit to program with.**"
+"advantage of being included with the Python standard library, making it the "
+"most convenient and compatible toolkit to program with.**"
 msgstr ""
+"Tkinter est une mince couche orientée par dessus Tcl/Tk. **Il a l'avantage "
+"d'être inclus dans la bibliothèque standard Python, ce qui le rend la boîte "
+"à outils la plus pratique et compatible pour programmer.**"
 
 #: ../../scenarios/gui.rst:94
 msgid ""
@@ -211,31 +266,45 @@ msgid ""
 "Windows and Macintosh systems. Starting with the 8.0 release, Tk offers "
 "native look and feel on all platforms."
 msgstr ""
+"Tk et Tkinter sont tous les deux disponibles sur la plupart des plateformes "
+"Unix, ainsi que sur les systèmes Windows et Macintosh. Depuis la version "
+"8.0, Tk offre une apparence et une impression native sur toutes les "
+"plateformes."
 
 #: ../../scenarios/gui.rst:98
 msgid ""
-"There's a good multi-language Tk tutorial with Python examples at `TkDocs"
-" <http://www.tkdocs.com/tutorial/index.html>`_. There's more information "
+"There's a good multi-language Tk tutorial with Python examples at `TkDocs "
+"<http://www.tkdocs.com/tutorial/index.html>`_. There's more information "
 "available on the `Python Wiki <http://wiki.python.org/moin/TkInter>`_."
 msgstr ""
+"Il y a un bon tutoriel Tk multi-langages avec des exemples Python sur "
+"`TkDocs <http://www.tkdocs.com/tutorial/index.html>`_. Plus d'informations "
+"sont disponibles sur `Wiki Python <http://wiki.python.org/moin/TkInter>`_."
 
 #: ../../scenarios/gui.rst:103
 msgid "wxPython"
-msgstr ""
+msgstr "wxPython"
 
 #: ../../scenarios/gui.rst:104
 msgid ""
 "wxPython is a GUI toolkit for the Python programming language. It allows "
 "Python programmers to create programs with a robust, highly functional "
-"graphical user interface, simply and easily. It is implemented as a "
-"Python extension module (native code) that wraps the popular wxWidgets "
-"cross platform GUI library, which is written in C++."
+"graphical user interface, simply and easily. It is implemented as a Python "
+"extension module (native code) that wraps the popular wxWidgets cross "
+"platform GUI library, which is written in C++."
 msgstr ""
+"wxPython est une boîte à outils d'interface graphique pour le langage de "
+"programmation Python. Il permet aux programmeurs Python de créer des "
+"programmes avec une interface utilisateur graphique robuste, très "
+"fonctionnel, simple et facile. Il est implémenté comme un module d'extension "
+"Python (code natif) qui enveloppe la populaire bibliothèque graphique multi-"
+"plateformes wxWidgets, qui est écrite en C ++."
 
 #: ../../scenarios/gui.rst:110
 msgid ""
-"**Install (Stable) wxPython** *go to "
-"http://www.wxpython.org/download.php#stable and download the appropriate "
-"package for your OS.*"
+"**Install (Stable) wxPython** *go to http://www.wxpython.org/download."
+"php#stable and download the appropriate package for your OS.*"
 msgstr ""
-
+"**Installez wxPython (Stable)** *allez sur http://www.wxpython.org/download."
+"php#stable et téléchargez le paquet approprié pour votre système "
+"d'exploitation.*"
