@@ -7,42 +7,49 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-03 01:22+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2016-07-14 21:18+0100\n"
+"Last-Translator: Thomas Gratier <thomas.gratier@webgeodatavore.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: fr\n"
 
 #: ../../writing/logging.rst:2
 msgid "Logging"
-msgstr ""
+msgstr "Logging"
 
 #: ../../writing/logging.rst:4
 msgid ""
-"The :mod:`logging` module has been a part of Python's Standard Library "
-"since version 2.3.  It is succinctly described in :pep:`282`.  The "
-"documentation is notoriously hard to read, except for the `basic logging "
-"tutorial`_."
+"The :mod:`logging` module has been a part of Python's Standard Library since "
+"version 2.3.  It is succinctly described in :pep:`282`.  The documentation "
+"is notoriously hard to read, except for the `basic logging tutorial`_."
 msgstr ""
+"Le module :mod:`logging` fait parti de la bibliothèque standard de Python "
+"depuis la version 2.3. Il est succinctement décrit dans la :pep:`282`. La "
+"documentation est notoirement difficile à lire, à l'exception du `basic "
+"logging tutorial`_."
 
 #: ../../writing/logging.rst:8
 msgid "Logging serves two purposes:"
-msgstr ""
+msgstr "Le logging sert deux buts:"
 
 #: ../../writing/logging.rst:10
 msgid ""
 "**Diagnostic logging** records events related to the application's "
-"operation. If a user calls in to report an error, for example, the logs "
-"can be searched for context."
+"operation. If a user calls in to report an error, for example, the logs can "
+"be searched for context."
 msgstr ""
+"**Le logging de diagnostic** enregistre les événements liés au "
+"fonctionnement de l'application. Si un utilisateur appelle pour signaler une "
+"erreur, par exemple, les logs peuvent être recherchés pour avoir un contexte."
 
 #: ../../writing/logging.rst:13
 msgid ""
@@ -50,42 +57,59 @@ msgid ""
 "transactions can be extracted and combined with other user details for "
 "reports or to optimize a business goal."
 msgstr ""
+"**logging d'audit** enregistre les événements pour l'analyse des affaires. "
+"Les transactions d'un utilisateur peuvent être extraites et combinées avec "
+"d'autres détails de l'utilisateur pour les rapports ou pour optimiser un "
+"objectif d'affaires."
 
 #: ../../writing/logging.rst:19
 msgid "... or Print?"
-msgstr ""
+msgstr "... ou Print?"
 
 #: ../../writing/logging.rst:21
 msgid ""
 "The only time that ``print`` is a better option than logging is when the "
-"goal is to display a help statement for a command line application. Other"
-" reasons why logging is better than ``print``:"
+"goal is to display a help statement for a command line application. Other "
+"reasons why logging is better than ``print``:"
 msgstr ""
+"La seule fois que ``print`` est une meilleure option que le logging est "
+"lorsque l'objectif est d'afficher une déclaration d'aide pour une "
+"application en ligne de commande. D'autres raisons pour lesquelles le "
+"logging est mieux que ``print``:"
 
 #: ../../writing/logging.rst:25
 msgid ""
 "The `log record`_, which is created with every logging event, contains "
-"readily available diagnostic information such as the file name, full "
-"path, function, and line number of the logging event."
+"readily available diagnostic information such as the file name, full path, "
+"function, and line number of the logging event."
 msgstr ""
+"Le `log record`_, qui a été créé avec chaque événement de logging, contient "
+"des informations de diagnostic facilement disponibles tels que le nom du "
+"fichier, le chemin complet, la fonction et le numéro de ligne de l'événement "
+"de logging."
 
 #: ../../writing/logging.rst:28
 msgid ""
-"Events logged in included modules are automatically accessible via the "
-"root logger to your application's logging stream, unless you filter them "
-"out."
+"Events logged in included modules are automatically accessible via the root "
+"logger to your application's logging stream, unless you filter them out."
 msgstr ""
+"Les événements loggués dans les modules inclus sont automatiquement "
+"accessibles via la racine du logger au flux de logs de votre application, à "
+"moins que vous ne les filtriez."
 
 #: ../../writing/logging.rst:30
 msgid ""
-"Logging can be selectively silenced by using the method "
-":meth:`logging.Logger.setLevel` or disabled by setting the attribute "
-":attr:`logging.Logger.disabled` to ``True``."
+"Logging can be selectively silenced by using the method :meth:`logging."
+"Logger.setLevel` or disabled by setting the attribute :attr:`logging.Logger."
+"disabled` to ``True``."
 msgstr ""
+"Le logging peut être réduite au silence de manière sélective en utilisant la "
+"méthode :meth:`logging.Logger.setLevel` ou désactivée en définissant "
+"l'attribut :attr:`logging.Logger.disabled` à ``True``."
 
 #: ../../writing/logging.rst:36
 msgid "Logging in a Library"
-msgstr ""
+msgstr "Logging dans une bibliothèque"
 
 #: ../../writing/logging.rst:38
 msgid ""
@@ -93,115 +117,151 @@ msgid ""
 "tutorial`_.  Because the *user*, not the library, should dictate what "
 "happens when a logging event occurs, one admonition bears repeating:"
 msgstr ""
+"Les notes pour `configuring logging for a library`_ sont dans le `logging "
+"tutorial`_.  Parce que *l'utilisateur*, pas la bibliothèque, devrait dicter "
+"ce qui se passe quand un événement de logging a lieu, une admonition à "
+"accepter est de se répéter:"
 
 #: ../../writing/logging.rst:44
 msgid ""
 "It is strongly advised that you do not add any handlers other than "
 "NullHandler to your library’s loggers."
 msgstr ""
+"Il est fortement recommandé de ne pas ajouter de handlers autres que "
+"NullHandler aux loggers de votre bibliothèque."
 
 #: ../../writing/logging.rst:48
 msgid ""
-"Best practice when instantiating loggers in a library is to only create "
-"them using the ``__name__`` global variable: the :mod:`logging` module "
-"creates a hierarchy of loggers using dot notation, so using ``__name__`` "
-"ensures no name collisions."
+"Best practice when instantiating loggers in a library is to only create them "
+"using the ``__name__`` global variable: the :mod:`logging` module creates a "
+"hierarchy of loggers using dot notation, so using ``__name__`` ensures no "
+"name collisions."
 msgstr ""
+"Les meilleures pratiques lors de l'instanciation des loggers dans une "
+"bibliothèque est de seulement les créer en utilisant la variable globale "
+"``__name__``:  le module :mod:`logging` crée une hiérarchie de loggers en "
+"utilisant la notation point, donc utiliser ``__name__`` assure l'absence de "
+"collisions de noms."
 
 #: ../../writing/logging.rst:53
 msgid ""
 "Here is an example of best practice from the `requests source`_ -- place "
 "this in your ``__init__.py``"
 msgstr ""
+"Voici un exemple de bonne pratique depuis la `requests source`_ -- placez "
+"ceci dans votre ``__init__.py``"
 
 #: ../../writing/logging.rst:72
 msgid "Logging in an Application"
-msgstr ""
+msgstr "Logging dans une application"
 
 #: ../../writing/logging.rst:74
 msgid ""
-"The `twelve factor app <http://12factor.net>`_, an authoritative "
-"reference for good practice in application development, contains a "
-"section on `logging best practice <http://12factor.net/logs>`_. It "
-"emphatically advocates for treating log events as an event stream, and "
-"for sending that event stream to standard output to be handled by the "
-"application environment."
+"The `twelve factor app <http://12factor.net>`_, an authoritative reference "
+"for good practice in application development, contains a section on `logging "
+"best practice <http://12factor.net/logs>`_. It emphatically advocates for "
+"treating log events as an event stream, and for sending that event stream to "
+"standard output to be handled by the application environment."
 msgstr ""
+"Le site `twelve factor app <http://12factor.net>`_, une référence faisant "
+"autorité pour les bonnes pratiques dans le développement d'application, "
+"contient une section sur `les meilleures pratiques de logging "
+"<http://12factor.net/logs>`_. Elle prône avec insistance pour le traitement "
+"des événements de journal comme un flux d'événements, et pour envoyer ce "
+"flux d'événements à la sortie standard pour être traité par l'environnement "
+"d'application."
 
 #: ../../writing/logging.rst:82
 msgid "There are at least three ways to configure a logger:"
-msgstr ""
+msgstr "Il y a au moins 3 manières de configurer un logger:"
 
 #: ../../writing/logging.rst:87
 msgid "Using an INI-formatted file:"
-msgstr ""
+msgstr "En utilisant un fichier formaté sous forme INI"
 
 #: ../../writing/logging.rst:85
 msgid ""
-"**Pro**: possible to update configuration while running using the "
-"function :func:`logging.config.listen` to listen on a socket."
+"**Pro**: possible to update configuration while running using the function :"
+"func:`logging.config.listen` to listen on a socket."
 msgstr ""
+"**Avantages**: possible de mettre à jour la configuration lors de "
+"l'exécution en utilisant la fonction :func:`logging.config.listen` pour "
+"écouter sur un socket."
 
 #: ../../writing/logging.rst:87
 msgid ""
 "**Con**: less control (*e.g.* custom subclassed filters or loggers) than "
 "possible when configuring a logger in code."
 msgstr ""
+"**Inconvénients**: moins de contrôle (*par exemple* pour des loggers ou "
+"filtres comme sous-classes) que possible lors de la configuration d'un "
+"logger dans le code."
 
 #: ../../writing/logging.rst:92
 msgid "Using a dictionary or a JSON-formatted file:"
-msgstr ""
+msgstr "En utilisant un dictionnaire ou un fichier formaté sous forme JSON:"
 
 #: ../../writing/logging.rst:90
 msgid ""
-"**Pro**: in addition to updating while running, it is possible to load "
-"from a file using the :mod:`json` module, in the standard library since "
-"Python 2.6."
+"**Pro**: in addition to updating while running, it is possible to load from "
+"a file using the :mod:`json` module, in the standard library since Python "
+"2.6."
 msgstr ""
+"**Avantages**: en plus de la mise à jour tout en exécutant, il est possible "
+"de charger à partir d'un fichier en utilisant le module :mod:`json`, dans la "
+"bibliothèque standard depuis Python 2.6."
 
 #: ../../writing/logging.rst:93
 msgid "**Con**: less control than when configuring a logger in code."
 msgstr ""
+"**Inconvénients**: moins de contrôle que quand configuration d'un logger "
+"dans le code."
 
 #: ../../writing/logging.rst:97
 msgid "Using code:"
-msgstr ""
+msgstr "En utilisant du code:"
 
 #: ../../writing/logging.rst:95
 msgid "**Pro**: complete control over the configuration."
-msgstr ""
+msgstr "**Avantages**: contrôle complet sur la configuration."
 
 #: ../../writing/logging.rst:96
 msgid "**Con**: modifications require a change to source code."
 msgstr ""
+"**Inconvénients**: modifications nécessitent un changement du code source."
 
 #: ../../writing/logging.rst:100
 msgid "Example Configuration via an INI File"
-msgstr ""
+msgstr "Exemple de configuration via un fichier INI"
 
 #: ../../writing/logging.rst:102
 msgid ""
-"Let us say the file is named ``logging_config.ini``. More details for the"
-" file format are in the `logging configuration`_ section of the `logging "
+"Let us say the file is named ``logging_config.ini``. More details for the "
+"file format are in the `logging configuration`_ section of the `logging "
 "tutorial`_."
 msgstr ""
+"Disons que le fichier est nommé ``logging_config.ini``. Plus de détails pour "
+"le format de fichier se trouvent dans la section `logging configuration`_ du "
+"`logging tutorial`_."
 
 #: ../../writing/logging.rst:131
 msgid "Then use :meth:`logging.config.fileConfig` in the code:"
-msgstr ""
+msgstr "Ensuite, utilisez :meth:`logging.config.fileConfig` dans le code:"
 
 #: ../../writing/logging.rst:144
 msgid "Example Configuration via a Dictionary"
-msgstr ""
+msgstr "Exemple de configuration via un dictionnaire"
 
 #: ../../writing/logging.rst:146
 msgid ""
-"As of Python 2.7, you can use a dictionary with configuration details. "
-":pep:`391` contains a list of the mandatory and optional elements in the "
+"As of Python 2.7, you can use a dictionary with configuration details. :pep:"
+"`391` contains a list of the mandatory and optional elements in the "
 "configuration dictionary."
 msgstr ""
+"A partir de Python 2.7, vous pouvez utiliser un dictionnaire avec les "
+"détails de configuration. La :pep:`391` contient une liste des éléments "
+"obligatoires et optionnels dans le dictionnaire de configuration."
 
 #: ../../writing/logging.rst:179
 msgid "Example Configuration Directly in Code"
-msgstr ""
-
+msgstr "Exemple de configuration directement dans le code"

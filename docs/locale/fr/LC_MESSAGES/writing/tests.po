@@ -7,274 +7,369 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-03 01:22+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2016-07-14 22:40+0100\n"
+"Last-Translator: Thomas Gratier <thomas.gratier@webgeodatavore.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
+"Language: fr\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: ../../writing/tests.rst:2
 msgid "Testing Your Code"
-msgstr ""
+msgstr "Tester votre code"
 
 #: ../../writing/tests.rst:4
 msgid "Testing your code is very important."
-msgstr ""
+msgstr "Tester votre code est très important."
 
 #: ../../writing/tests.rst:6
 msgid ""
-"Getting used to writing the testing code and the running code in parallel"
-" is now considered a good habit. Used wisely, this method helps you "
-"define more precisely your code's intent and have a more decoupled "
-"architecture."
+"Getting used to writing the testing code and the running code in parallel is "
+"now considered a good habit. Used wisely, this method helps you define more "
+"precisely your code's intent and have a more decoupled architecture."
 msgstr ""
+"S'habituer à écrire le code de test et le code en cours d'exécution en "
+"parallèle est maintenant considéré comme une bonne habitude. Utilisé à bon "
+"escient, cette méthode vous aide à définir plus précisément l'intention de "
+"votre code et à avoir une architecture plus découplée."
 
 #: ../../writing/tests.rst:10
 msgid "Some general rules of testing:"
-msgstr ""
+msgstr "Quelques règles générales de test:"
 
 #: ../../writing/tests.rst:12
 msgid ""
-"A testing unit should focus on one tiny bit of functionality and prove it"
-" correct."
+"A testing unit should focus on one tiny bit of functionality and prove it "
+"correct."
 msgstr ""
+"Un test unitaire doit se concentrer sur un tout petit morceau de "
+"fonctionnalité et prouver qu'il est correct."
 
 #: ../../writing/tests.rst:15
 msgid ""
-"Each test unit must be fully independent. Each of them must be able to "
-"run alone, and also within the test suite, regardless of the order they "
-"are called. The implication of this rule is that each test must be loaded"
-" with a fresh dataset and may have to do some cleanup afterwards. This is"
-" usually handled by :meth:`setUp()` and :meth:`tearDown()` methods."
+"Each test unit must be fully independent. Each of them must be able to run "
+"alone, and also within the test suite, regardless of the order they are "
+"called. The implication of this rule is that each test must be loaded with a "
+"fresh dataset and may have to do some cleanup afterwards. This is usually "
+"handled by :meth:`setUp()` and :meth:`tearDown()` methods."
 msgstr ""
+"Chaque test unitaire doit être complètement indépendant. Chacun d'eux doit "
+"être capable de s'exécuter seul, et aussi à l'intérieur de la suite de "
+"tests, indépendamment de l'ordre dans lesquels ils sont appelés. "
+"L'implication de cette règle est que chaque test doit être chargé avec un "
+"nouveau jeu de données et peut avoir à faire un peu de nettoyage après. Cela "
+"est généralement géré par les méthodes  :meth:`setUp()` et :meth:"
+"`tearDown()`."
 
 #: ../../writing/tests.rst:21
 msgid ""
-"Try hard to make tests that run fast. If one single test needs more than "
-"a few milliseconds to run, development will be slowed down or the tests "
-"will not be run as often as is desirable. In some cases, tests can't be "
-"fast because they need a complex data structure to work on, and this data"
-" structure must be loaded every time the test runs. Keep these heavier "
-"tests in a separate test suite that is run by some scheduled task, and "
-"run all other tests as often as needed."
+"Try hard to make tests that run fast. If one single test needs more than a "
+"few milliseconds to run, development will be slowed down or the tests will "
+"not be run as often as is desirable. In some cases, tests can't be fast "
+"because they need a complex data structure to work on, and this data "
+"structure must be loaded every time the test runs. Keep these heavier tests "
+"in a separate test suite that is run by some scheduled task, and run all "
+"other tests as often as needed."
 msgstr ""
+"Essayez très fort de faire des tests qui s'exécutent vite. Si un seul test a "
+"besoin de plus de quelques millisecondes pour s'exécuter, le développement "
+"sera ralenti ou les tests ne seront pas exécutés aussi souvent que ce serait "
+"souhaitable. Dans certains cas, les tests ne peuvent pas être rapides parce "
+"qu'ils ont besoin d'une structure de données complexes sur laquelle "
+"travailler, et cette structure de données doit être chargée chaque fois que "
+"le test s'exécute. Gardez ces tests plus lourds dans une suite de tests "
+"séparés qui est gérée par une tâche planifiée, et exécutez tous les autres "
+"tests aussi souvent que nécessaire."
 
 #: ../../writing/tests.rst:29
 msgid ""
-"Learn your tools and learn how to run a single test or a test case. Then,"
-" when developing a function inside a module, run this function's tests "
-"very often, ideally automatically when you save the code."
+"Learn your tools and learn how to run a single test or a test case. Then, "
+"when developing a function inside a module, run this function's tests very "
+"often, ideally automatically when you save the code."
 msgstr ""
+"Apprenez vos outils et apprenez à gérer un seul test ou une série de tests. "
+"Puis, lors du développement d'une fonction à l'intérieur d'un module, "
+"exécutez  cette fonction de tests très souvent, idéalement automatiquement "
+"lorsque vous enregistrez le code."
 
 #: ../../writing/tests.rst:33
 msgid ""
 "Always run the full test suite before a coding session, and run it again "
-"after. This will give you more confidence that you did not break anything"
-" in the rest of the code."
+"after. This will give you more confidence that you did not break anything in "
+"the rest of the code."
 msgstr ""
+"Exécutez toujours la suite de tests complète avant une session de codage, et "
+"exécutez-la à nouveau après. Cela vous donnera plus de confiance en "
+"vérifiant que que vous n'avez rien cassé dans le reste du code."
 
 #: ../../writing/tests.rst:37
 msgid ""
 "It is a good idea to implement a hook that runs all tests before pushing "
 "code to a shared repository."
 msgstr ""
+"C'est une bonne idée d'implémenter un hook qui exécute tous les tests avant "
+"de pousser le code vers un dépôt partagé."
 
 #: ../../writing/tests.rst:40
 msgid ""
-"If you are in the middle of a development session and have to interrupt "
-"your work, it is a good idea to write a broken unit test about what you "
-"want to develop next. When coming back to work, you will have a pointer "
-"to where you were and get back on track faster."
+"If you are in the middle of a development session and have to interrupt your "
+"work, it is a good idea to write a broken unit test about what you want to "
+"develop next. When coming back to work, you will have a pointer to where you "
+"were and get back on track faster."
 msgstr ""
+"Si vous êtes au milieu d'une session de développement et avez à interrompre "
+"votre travail, c'est une bonne idée d'écrire un test unitaire cassé sur ce "
+"que vous voulez développer prochainement. En reprenant votre travail, vous "
+"aurez un pointeur à l'endroit où vous étiez et pourrez revenir plus "
+"rapidement sur la bonne voie."
 
 #: ../../writing/tests.rst:45
 msgid ""
 "The first step when you are debugging your code is to write a new test "
 "pinpointing the bug. While it is not always possible to do, those bug "
-"catching tests are among the most valuable pieces of code in your "
-"project."
+"catching tests are among the most valuable pieces of code in your project."
 msgstr ""
+"La première étape lorsque vous débugguez votre code est d'écrire un nouveau "
+"test localisant exactement le bug. Bien qu'il ne soit pas toujours possible "
+"de faire, ces tests pour attraper les bugs sont parmi les morceaux les plus "
+"précieux de code dans votre projet."
 
 #: ../../writing/tests.rst:49
 msgid ""
-"Use long and descriptive names for testing functions. The style guide "
-"here is slightly different than that of running code, where short names "
-"are often preferred. The reason is testing functions are never called "
-"explicitly. ``square()`` or even ``sqr()`` is ok in running code, but in "
-"testing code you would have names such as ``test_square_of_number_2()``, "
-"``test_square_negative_number()``. These function names are displayed "
-"when a test fails, and should be as descriptive as possible."
+"Use long and descriptive names for testing functions. The style guide here "
+"is slightly different than that of running code, where short names are often "
+"preferred. The reason is testing functions are never called explicitly. "
+"``square()`` or even ``sqr()`` is ok in running code, but in testing code "
+"you would have names such as ``test_square_of_number_2()``, "
+"``test_square_negative_number()``. These function names are displayed when a "
+"test fails, and should be as descriptive as possible."
 msgstr ""
+"Utilisez des noms longs et descriptifs pour les fonctions de test. Le guide "
+"de style ici est légèrement différent de celui du code s'exécutant, où les "
+"noms courts sont souvent préférés. La raison est de tester les fonctions qui "
+"ne sont jamais appelées explicitement. ``square()`` ou même ``sqr()`` est ok "
+"dans un code en cours d'exécution, mais dans le code de test, vous auriez "
+"des noms tels que ``test_square_of_number_2()``, "
+"``test_square_negative_number()``. Ces noms de fonction sont affichés quand "
+"un test échoue, et devraient être aussi descriptifs que possible."
 
 #: ../../writing/tests.rst:57
 msgid ""
-"When something goes wrong or has to be changed, and if your code has a "
-"good set of tests, you or other maintainers will rely largely on the "
-"testing suite to fix the problem or modify a given behavior. Therefore "
-"the testing code will be read as much as or even more than the running "
-"code. A unit test whose purpose is unclear is not very helpful in this "
-"case."
+"When something goes wrong or has to be changed, and if your code has a good "
+"set of tests, you or other maintainers will rely largely on the testing "
+"suite to fix the problem or modify a given behavior. Therefore the testing "
+"code will be read as much as or even more than the running code. A unit test "
+"whose purpose is unclear is not very helpful in this case."
 msgstr ""
+"Quand quelque chose va mal ou doit être changé, et si votre code a une bonne "
+"série de tests, vous ou d'autres mainteneurs allez vous reposer en grande "
+"partie sur la suite de tests pour corriger le problème ou modifier un "
+"comportement donné. Par conséquent, le code de test sera lu autant ou même "
+"plus que le code en cours d'exécution. Un test unitaire dont le la finalité "
+"est incertaine est pas très utile dans ce cas."
 
 #: ../../writing/tests.rst:64
 msgid ""
 "Another use of the testing code is as an introduction to new developers. "
 "When someone will have to work on the code base, running and reading the "
 "related testing code is often the best they can do. They will or should "
-"discover the hot spots, where most difficulties arise, and the corner "
-"cases. If they have to add some functionality, the first step should be "
-"to add a test and, by this means, ensure the new functionality is not "
-"already a working path that has not been plugged into the interface."
+"discover the hot spots, where most difficulties arise, and the corner cases. "
+"If they have to add some functionality, the first step should be to add a "
+"test and, by this means, ensure the new functionality is not already a "
+"working path that has not been plugged into the interface."
 msgstr ""
+"Une autre utilisation du code de test est comme une introduction aux "
+"nouveaux développeurs. Quand quelqu'un aura à travailler sur la base de "
+"code, exécuter et lire le code de test lié est souvent le mieux qu'ils "
+"peuvent faire. Ils vont ou devraient découvrir les points chauds, où la "
+"plupart des difficultés sont rencontrées, et les cas limites. Si ils doivent "
+"ajouter des fonctionnalités, la première étape devrait être d'ajouter un "
+"test et, par ce moyen, de s'assurer que la nouvelle fonctionnalité est pas "
+"déjà un chemin de travail qui n'a pas été branché sur l'interface."
 
 #: ../../writing/tests.rst:73
 msgid "The Basics"
-msgstr ""
+msgstr "Les basiques"
 
 #: ../../writing/tests.rst:77
 msgid "Unittest"
-msgstr ""
+msgstr "Unittest"
 
 #: ../../writing/tests.rst:79
 msgid ""
-":mod:`unittest` is the batteries-included test module in the Python "
-"standard library. Its API will be familiar to anyone who has used any of "
-"the JUnit/nUnit/CppUnit series of tools."
+":mod:`unittest` is the batteries-included test module in the Python standard "
+"library. Its API will be familiar to anyone who has used any of the JUnit/"
+"nUnit/CppUnit series of tools."
 msgstr ""
+":mod:`unittest` est le module de test \"tout en un\" dans la bibliothèque "
+"standard Python. Son API sera familière à quiconque a déjà utilisé une des "
+"séries d'outils JUnit/nUnit/CppUnit."
 
 #: ../../writing/tests.rst:83
 msgid ""
-"Creating test cases is accomplished by subclassing "
-":class:`unittest.TestCase`."
+"Creating test cases is accomplished by subclassing :class:`unittest."
+"TestCase`."
 msgstr ""
+"Créer des cas de test est réalisé en faisant des sous-classes de :class:"
+"`unittest.TestCase`."
 
 #: ../../writing/tests.rst:96
-msgid "As of Python 2.7 unittest also includes its own test discovery mechanisms."
+msgid ""
+"As of Python 2.7 unittest also includes its own test discovery mechanisms."
 msgstr ""
+"A partir de Python 2.7, unittest comprend également ses propres mécanismes "
+"de découverte de tests."
 
 #: ../../writing/tests.rst:98
 msgid ""
-"`unittest in the standard library documentation "
-"<http://docs.python.org/library/unittest.html>`_"
+"`unittest in the standard library documentation <http://docs.python.org/"
+"library/unittest.html>`_"
 msgstr ""
+"`unittest dans la documentation de la bibliothèque standard <http://docs."
+"python.org/library/unittest.html>`_"
 
 #: ../../writing/tests.rst:102
 msgid "Doctest"
-msgstr ""
+msgstr "Doctest"
 
 #: ../../writing/tests.rst:104
 msgid ""
 "The :mod:`doctest` module searches for pieces of text that look like "
-"interactive Python sessions in docstrings, and then executes those "
-"sessions to verify that they work exactly as shown."
+"interactive Python sessions in docstrings, and then executes those sessions "
+"to verify that they work exactly as shown."
 msgstr ""
+"Le module :mod:`doctest` recherche des morceaux de texte qui ressemblent à "
+"des sessions de Python interactifs en docstrings, puis exécute ces sessions "
+"pour vérifier qu'ils fonctionnent exactement comme indiqué."
 
 #: ../../writing/tests.rst:108
 msgid ""
-"Doctests have a different use case than proper unit tests: they are "
-"usually less detailed and don't catch special cases or obscure regression"
-" bugs. They are useful as an expressive documentation of the main use "
-"cases of a module and its components. However, doctests should run "
-"automatically each time the full test suite runs."
+"Doctests have a different use case than proper unit tests: they are usually "
+"less detailed and don't catch special cases or obscure regression bugs. They "
+"are useful as an expressive documentation of the main use cases of a module "
+"and its components. However, doctests should run automatically each time the "
+"full test suite runs."
 msgstr ""
+"Les doctests ont un cas d'utilisation différent des tests unitaires "
+"appropriés: ils sont généralement moins détaillés et ne capturent pas des "
+"cas particuliers ou des bugs de régression obscurs. Ils sont utiles en tant "
+"que documentation expressive des principaux cas d'utilisation d'un module et "
+"de ses composants. Cependant, les doctests doivent exécuter automatiquement "
+"à chaque fois que la suite de tests complète s'exécute."
 
 #: ../../writing/tests.rst:114
 msgid "A simple doctest in a function:"
-msgstr ""
+msgstr "Un simple doctest dans une fonction:"
 
 #: ../../writing/tests.rst:133
 msgid ""
-"When running this module from the command line as in ``python "
-"module.py``, the doctests will run and complain if anything is not "
-"behaving as described in the docstrings."
+"When running this module from the command line as in ``python module.py``, "
+"the doctests will run and complain if anything is not behaving as described "
+"in the docstrings."
 msgstr ""
+"Lors de l'exécution de ce module à partir de la ligne de commande comme dans "
+"``python module.py``, les doctests vont s'exécuter et se plaindre si rien ne "
+"se comporte comme décrit dans les docstrings."
 
 #: ../../writing/tests.rst:138
 msgid "Tools"
-msgstr ""
+msgstr "Outils"
 
 #: ../../writing/tests.rst:142
 msgid "py.test"
-msgstr ""
+msgstr "py.test"
 
 #: ../../writing/tests.rst:144
 msgid ""
-"py.test is a no-boilerplate alternative to Python's standard unittest "
-"module."
+"py.test is a no-boilerplate alternative to Python's standard unittest module."
 msgstr ""
+"py.test est une alternative sans boilerplate au module unittest standard "
+"Python."
 
 #: ../../writing/tests.rst:150
 msgid ""
-"Despite being a fully-featured and extensible test tool, it boasts a "
-"simple syntax. Creating a test suite is as easy as writing a module with "
-"a couple of functions:"
+"Despite being a fully-featured and extensible test tool, it boasts a simple "
+"syntax. Creating a test suite is as easy as writing a module with a couple "
+"of functions:"
 msgstr ""
+"En dépit d'être un outil de test plein de fonctionnalités et extensible, il "
+"bénéficie d'une syntaxe simple. Créer une suite de tests est aussi facile "
+"qu'écrire un module avec un couple de fonctions:"
 
 #: ../../writing/tests.rst:163
 msgid "and then running the `py.test` command"
-msgstr ""
+msgstr "et ensuite en exécutant la commande `py.test`"
 
 #: ../../writing/tests.rst:185
 msgid ""
 "is far less work than would be required for the equivalent functionality "
 "with the unittest module!"
 msgstr ""
+"est beaucoup moins de travail que ce qui serait nécessaire pour la "
+"fonctionnalité équivalente avec le module unittest!"
 
 #: ../../writing/tests.rst:188
 msgid "`py.test <http://pytest.org/latest/>`_"
-msgstr ""
+msgstr "`py.test <http://pytest.org/latest/>`_"
 
 #: ../../writing/tests.rst:192
 msgid "Nose"
-msgstr ""
+msgstr "Nose"
 
 #: ../../writing/tests.rst:194
 msgid "nose extends unittest to make testing easier."
-msgstr ""
+msgstr "nose étend unittest pour rendre les tests plus faciles."
 
 #: ../../writing/tests.rst:201
 msgid ""
-"nose provides automatic test discovery to save you the hassle of manually"
-" creating test suites. It also provides numerous plugins for features "
-"such as xUnit-compatible test output, coverage reporting, and test "
-"selection."
+"nose provides automatic test discovery to save you the hassle of manually "
+"creating test suites. It also provides numerous plugins for features such as "
+"xUnit-compatible test output, coverage reporting, and test selection."
 msgstr ""
+"nose fournit la découverte automatique de tests pour vous épargner les "
+"tracas de créer manuellement des suites de tests. Il fournit également de "
+"nombreux plugins pour des fonctionnalités telles que la sortie de test "
+"compatible xUnit, les rapports sur la couverture et la sélection de tests."
 
 #: ../../writing/tests.rst:205
 msgid "`nose <http://readthedocs.org/docs/nose/en/latest/>`_"
-msgstr ""
+msgstr "`nose <http://readthedocs.org/docs/nose/en/latest/>`_"
 
 #: ../../writing/tests.rst:209
 msgid "tox"
-msgstr ""
+msgstr "tox"
 
 #: ../../writing/tests.rst:211
 msgid ""
-"tox is a tool for automating test environment management and testing "
-"against multiple interpreter configurations"
+"tox is a tool for automating test environment management and testing against "
+"multiple interpreter configurations"
 msgstr ""
+"tox est un outil pour automatiser la gestion de l'environnement de test et "
+"les tests ciblant des configurations d'interpréteurs multiples"
 
 #: ../../writing/tests.rst:218
 msgid ""
-"tox allows you to configure complicated multi-parameter test matrices via"
-" a simple ini-style configuration file."
+"tox allows you to configure complicated multi-parameter test matrices via a "
+"simple ini-style configuration file."
 msgstr ""
+"tox vous permet de configurer des matrices de test multi-paramètres "
+"complexes via un simple fichier de configuration de type INI."
 
 #: ../../writing/tests.rst:221
 msgid "`tox <http://testrun.org/tox/latest/>`_"
-msgstr ""
+msgstr "`tox <http://testrun.org/tox/latest/>`_"
 
 #: ../../writing/tests.rst:224
 msgid "Unittest2"
-msgstr ""
+msgstr "Unittest2"
 
 #: ../../writing/tests.rst:226
 msgid ""
@@ -282,66 +377,88 @@ msgid ""
 "improved API and better assertions over the one available in previous "
 "versions of Python."
 msgstr ""
+"unittest2 est un portage du module unittest Python 2.7 qui a une API "
+"améliorée et de meilleures assertions par rapport à celui disponible dans "
+"les versions précédentes de Python."
 
 #: ../../writing/tests.rst:229
 msgid "If you're using Python 2.6 or below, you can install it with pip"
 msgstr ""
+"Si vous utilisez Python 2.6 ou inférieur, vous pouvez l'installer avec pip"
 
 #: ../../writing/tests.rst:235
 msgid ""
-"You may want to import the module under the name unittest to make porting"
-" code to newer versions of the module easier in the future"
+"You may want to import the module under the name unittest to make porting "
+"code to newer versions of the module easier in the future"
 msgstr ""
+"Vous pouvez vouloir faire l'import du module sous le nom unittest pour "
+"rendre le portage du code pour les nouvelles versions du module plus facile "
+"dans le futur"
 
 #: ../../writing/tests.rst:245
 msgid ""
-"This way if you ever switch to a newer Python version and no longer need "
-"the unittest2 module, you can simply change the import in your test "
-"module without the need to change any other code."
+"This way if you ever switch to a newer Python version and no longer need the "
+"unittest2 module, you can simply change the import in your test module "
+"without the need to change any other code."
 msgstr ""
+"De cette façon, si jamais vous basculez à une version plus récente de Python "
+"et n'avez plus besoin du module unittest2, vous pouvez simplement changer "
+"l'import dans votre module de test sans avoir besoin de changer aucun autre "
+"code."
 
 #: ../../writing/tests.rst:249
 msgid "`unittest2 <http://pypi.python.org/pypi/unittest2>`_"
-msgstr ""
+msgstr "`unittest2 <http://pypi.python.org/pypi/unittest2>`_"
 
 #: ../../writing/tests.rst:253
 msgid "mock"
-msgstr ""
+msgstr "mock"
 
 #: ../../writing/tests.rst:255
 msgid ""
-":mod:`unittest.mock` is a library for testing in Python. As of Python "
-"3.3, it is available in the `standard library "
-"<https://docs.python.org/dev/library/unittest.mock>`_."
+":mod:`unittest.mock` is a library for testing in Python. As of Python 3.3, "
+"it is available in the `standard library <https://docs.python.org/dev/"
+"library/unittest.mock>`_."
 msgstr ""
+":mod:`unittest.mock` est une bibliothèque pour les tests en Python. A partir "
+"de Python 3.3, elle est disponible dans la `bibliothèque standard  <https://"
+"docs.python.org/dev/library/unittest.mock>`_."
 
 #: ../../writing/tests.rst:259
 msgid "For older versions of Python:"
-msgstr ""
+msgstr "Pour les versions anciennes de Python:"
 
 #: ../../writing/tests.rst:265
 msgid ""
-"It allows you to replace parts of your system under test with mock "
-"objects and make assertions about how they have been used."
+"It allows you to replace parts of your system under test with mock objects "
+"and make assertions about how they have been used."
 msgstr ""
+"Il vous permet de remplacer les parties de votre système en test avec des "
+"objets mock et de faire des assertions sur la façon dont ils ont été "
+"utilisés."
 
 #: ../../writing/tests.rst:268
 msgid "For example, you can monkey-patch a method:"
-msgstr ""
+msgstr "Par exemple, vous pouvez monkey-patcher une méthode:"
 
 #: ../../writing/tests.rst:279
 msgid ""
 "To mock classes or objects in a module under test, use the ``patch`` "
-"decorator. In the example below, an external search system is replaced "
-"with a mock that always returns the same result (but only for the "
-"duration of the test)."
+"decorator. In the example below, an external search system is replaced with "
+"a mock that always returns the same result (but only for the duration of the "
+"test)."
 msgstr ""
+"Pour mocker des classes ou des objets dans un module en test, utilisez le "
+"décorateur ``patch``. Dans l'exemple ci-dessous, un système de recherche "
+"externe est remplacé par un mock qui retourne toujours le même résultat "
+"(mais seulement pour la durée du test)."
 
 #: ../../writing/tests.rst:298
 msgid "Mock has many other ways you can configure it and control its behavior."
 msgstr ""
+"Mock a beaucoup d'autres façons pour que vous le configuriez et contrôliez "
+"son comportement."
 
 #: ../../writing/tests.rst:300
 msgid "`mock <http://www.voidspace.org.uk/python/mock/>`_"
-msgstr ""
-
+msgstr "`mock <http://www.voidspace.org.uk/python/mock/>`_"
