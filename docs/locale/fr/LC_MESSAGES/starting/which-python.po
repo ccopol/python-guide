@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-03 01:22+0200\n"
-"PO-Revision-Date: 2016-07-17 01:46+0100\n"
+"PO-Revision-Date: 2016-07-17 01:51+0100\n"
 "Last-Translator: Thomas Gratier <thomas.gratier@webgeodatavore.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -42,7 +42,7 @@ msgstr ""
 
 #: ../../starting/which-python.rst:14
 msgid "The basic gist of the state of things is as follows:"
-msgstr "Le fond de base de l'état des choses est comme suivant:"
+msgstr "L'essentiel à retenir de l'état des choses est comme suivant:"
 
 #: ../../starting/which-python.rst:16
 msgid "Python 2.7 has been the standard for a *long* time."
