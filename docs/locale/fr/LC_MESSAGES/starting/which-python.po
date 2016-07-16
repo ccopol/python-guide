@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-03 01:22+0200\n"
-"PO-Revision-Date: 2016-07-03 03:19+0100\n"
+"PO-Revision-Date: 2016-07-17 01:46+0100\n"
 "Last-Translator: Thomas Gratier <thomas.gratier@webgeodatavore.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -119,8 +119,8 @@ msgid ""
 "The stability requirements of your software would be improved by a language "
 "and runtime that never changes."
 msgstr ""
-"Les prérequis de stabilité de votre logiciel serait amélioré par un langage "
-"et un moteur d'exécution qui ne change jamais."
+"Les prérequis de stabilité de votre logiciel seraient améliorés par un "
+"langage et un moteur d'exécution qui ne change jamais."
 
 #: ../../starting/which-python.rst:42
 msgid "Software that you depend on requires it."
@@ -152,7 +152,7 @@ msgstr ""
 "Avec ces éléments, utilisez seulement Python 2 si vous avez une raison "
 "importante pour cela, comme une bibliothèque exclusive à Python 2 qui n'a "
 "pas d'alternative adéquate disponible en Python 3 , ou vous (comme moi) "
-"adorez absolument et êtes inspiré par Python 2."
+"adorez absolument et êtes inspirés par Python 2."
 
 #: ../../starting/which-python.rst:56
 msgid ""
@@ -191,8 +191,8 @@ msgid ""
 msgstr ""
 "Quand les gens parlent de *Python*, ils veulent souvent dire pas seulement "
 "le langage mais aussi l'implémentation Cython. *Python* est actuellement une "
-"spécification pour un langage qui peut être qui peut être implémentée de "
-"multiples façons."
+"spécification pour un langage qui qui peut être implémentée de multiples "
+"façons."
 
 #: ../../starting/which-python.rst:75
 msgid "CPython"
@@ -219,8 +219,8 @@ msgid ""
 msgstr ""
 "Si vous écrivez du code Python open-source et que vous voulez toucher une "
 "audience la plus large possible, le ciblage de CPython est le meilleur à "
-"faire. Pour utiliser des paquets qui s'appuient sur des extensions C "
-"pour fonctionner, CPython est votre seule option de mise en œuvre."
+"faire. Pour utiliser des paquets qui s'appuient sur des extensions C pour "
+"fonctionner, CPython est votre seule option de mise en œuvre."
 
 #: ../../starting/which-python.rst:86
 msgid ""
@@ -270,7 +270,7 @@ msgid ""
 "PyPy supports Python 2.7. PyPy3 [#pypy_ver]_, released in beta, targets "
 "Python 3."
 msgstr ""
-"PyPy supporte Python 2.7. PyPy3 [#pypy_ver]_, sortie en bêta, cible Python 3."
+"PyPy supporte Python 2.7. PyPy3 [#pypy_ver]_, sorti en bêta, cible Python 3."
 
 #: ../../starting/which-python.rst:106
 msgid "Jython"
@@ -286,7 +286,7 @@ msgstr ""
 "`Jython <http://www.jython.org/>`_ est une implémentation Python qui compile "
 "du code Python en bytecode Java qui est ensuite exécuté par la JVM (Java "
 "Virtual Machine). De plus, il est capable d'importer et d'utiliser n'importe "
-"quelle classe Java comme une module Python."
+"quelle classe Java comme un module Python."
 
 #: ../../starting/which-python.rst:113
 msgid ""
@@ -300,7 +300,7 @@ msgstr ""
 #: ../../starting/which-python.rst:116
 msgid "Jython currently supports up to Python 2.7. [#jython_ver]_"
 msgstr ""
-"Jython actuellement supporte jusqu'à la version Python 2.7. [#jython_ver]_"
+"Jython supporte actuellement jusqu'à la version Python 2.7. [#jython_ver]_"
 
 #: ../../starting/which-python.rst:119
 msgid "IronPython"
@@ -325,7 +325,7 @@ msgid ""
 msgstr ""
 "`Python Tools for Visual Studio <http://ironpython.net/tools/>`_ intègre "
 "IronPython directement dans l'environnement de développement de Visual "
-"Studio, le rendant comme un choix idéal pour les développeurs Windows."
+"Studio, ce qui le rend choix idéal pour les développeurs Windows."
 
 #: ../../starting/which-python.rst:129
 msgid "IronPython supports Python 2.7. [#iron_ver]_"
